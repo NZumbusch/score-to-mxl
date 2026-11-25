@@ -727,11 +727,15 @@ class Writer:
                     nt.extend(self.first_note_notations(ev, cmds, slur_state, key, trill_open))
                 if 'arp' in cmds:
                     nt.append('<arpeggiate/>')
+                if 'glstop' in cmds and pi == 0:
+                    kind = getattr(self, '_gl', {}).get(key, 'slide')
+                    nt.append(f'<{kind} type="stop"/>')
                 if 'gl' in cmds and pi == 0:
+                    if not hasattr(self, '_gl'):
+                        self._gl = {}
+                    self._gl[key] = 'glissando' if cmds['gl'] == 'wavy' else 'slide'
                     nt.append('<glissando type="start" line-type="wavy"/>' if cmds['gl'] == 'wavy'
                               else '<slide type="start" line-type="solid"/>')
-                if 'glstop' in cmds and pi == 0:
-                    nt.append('<slide type="stop"/>')
                 if nt:
                     n.append('<notations>' + ''.join(nt) + '</notations>')
                 n.append('</note>')

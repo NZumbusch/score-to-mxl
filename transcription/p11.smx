@@ -1,0 +1,46 @@
+# ---------------- page 11 (Var. III cont.) ----------------
+# LH pitches in treble passages partly derived from the Audiveris draft (which misread the clef; shifted +12 diatonic steps).
+# system 1
+m page
+E:  r:2 c#4:32->(\f a#3:8..)\> b3:4\fermata~
+R:  6:4{ an4:16->(\ff f#4 g#4 a4 c#5 b4~) } <b4 c#5 eb5>:2.\fermata\sf   #? top chord accidentals
+R2: c#4:8->-. r:8 s:2.
+L:  <a#2 f#3>:8->-.\ff r:8 \clef"treble" <ab3 dn4 f4>:2.\fermata   #? chord
+m
+E:  b3:2.(\p g{b3:16\< c#4} d4:16-.\mf cn4:16-- 3:2{ b3:16\> f#3 d#3)\! }   #? last triplet
+R:  r:8 e5:8(\p\< g{g5:16} f#5:8 e5:8 g{g5:16} f#5:8 e5:8) c#5:4~\mf
+R2: s:8 b4:8 c#5:8 b4:8 a#4:8 b4:8 s:4
+L:  r:8 3:2{ g4:16(_"Ped. ad lib." d4 f3 } 6:4{ e3:16 c#4 g#4 gn4 d4 f3 } 6:4{ f#3:16 c#4 f#4 g3 d4 f4 } <e4 g#4>:4~)
+m
+E:  g#2:2.->~ g#2:4\fermata^"rit."~
+R:  3:2{ c#5:8 <b#4 c#5>:8-- <bn4 c#5>:8-- } 5:4{ <a#4 c#5>:16\< <an4 c#5> <g#4 c#5> <gn4 c#5> <f#4 c#5> } c#5:32->(\f^"rit." a#4:32 b4:8.~ b4:16\> g#4:16-- an4:8--\fermata)\p
+R2: s:2 fn4:2
+L:  3:2{ <e4 g#4>:8 <eb4 gn4>:8-- <d4 f#4>:8-- } 5:4{ <db4 fn4>:16 <c4 en4> <b3 d#4> <b3 db4> <a3 c#4> } <ab3 cn4>:2\fermata \clef"bass"
+# system 2  ("flutter valves": wavy lines between notes = valve glissando, encoded as wavy glissando)
+m sys
+E:  g#2:8(\p_"(flutter valves)" gn2:8\gl"wavy" g3:8--\glstop\gl"wavy" g2:8\glstop g2:2~)
+R:  <f#4 a4>:4. <f#4 a4>:8(\< g{c#5:16 d5} 3:2{ <a#4 c5>:8-.)\mf <g#4 b4>:8-. <gn4 bb4>:8-.\> } <f#4 a#4>:8( <e4 bn4>:8)\!
+L:  <g3 b3>:4. <g3 b3>:8(\ped 3:2{ <eb3 bb3>:8-.)\unped <g3 bn3>:8-. <bb3 d4>:8-. } <bn3 d#4>:8( <a3 c#4>:8)
+m
+E:  g2:8(\mp_"(simile)" g2:8\gl"wavy" bb3:8--\glstop\gl"wavy" g2:8\glstop g2:2)
+R:  <fn4 ab4>:4.\p <f4 a4>:8(\< g{cn5:16 c#5} 3:2{ <e4 b4>:8-.) <f#4 g#4>:8-. <gn4 bb4>:8-. } <a4 fn5>:8( <ab4 eb5>:8)\!
+L:  <bn3 d4>:4. <g3 b3>:8(\ped 3:2{ <d3 a3>:8-.)\unped <d#3 b3>:8-. <e3 c4>:8-. } <f#3 c#4>:8( <a#3 en4>:8)
+m
+E:  g2:8(\mf\gl"wavy" bb3:8\glstop 3:2{ g2:8\gl"wavy" c#4:8\glstop\< g2:8\gl"wavy" } en4:32->\glstop\f c#4:8..) d4:4--   #? pitches after G2 (Audiveris + scan)
+R:  f#5:2~\mf f#5:8 f#5:8\< g{f#5:16 g#5} 3:2{ a5:16-.(\f g5-. gn5-.) } f#5:8--   #? 16th triplet pitches
+R2: g4:2. s:4
+L:  <b3 d4>:2. \clef"treble" <g4 b4 d5>:8->-. r:8   #? last 16th triplet below
+# system 3
+m sys
+E:  d4:32->(_"dim." b3:8..~ b3:16 c#4:8.~ c#4:8) c#4:16->( a#3:16~ a#3:4~
+R:  3:2{ g#4:16->(_"dim." g4 f#4 } fn4:8-.) \clef"bass" 3:2{ g#3:16->( gn3 f#3 } fn3:8-.) 3:2{ g#2:8-- gn2:8-- f#2:8-- } 6:4{ fn2:16( ab2 gb2 f2 d2 e2) }
+L:  b4:8-. \clef"bass" 3:2{ d4:16->( db4 c4 } b3:8-.) 3:2{ dn3:16( db3 c3 } b2:2~)
+m
+E:  a#3:8\> b3:8--) c#4:2.~\p
+R:  c#2:2->~ c#2:8\mp_"sonore"\< r:8 r:4\!
+L:  b2:2~ b2:8 <b1 b2>:4( <c#2 c#3>:8)
+m
+E:  c#4:4( d4:4~ d4:8)\breath d3:8(_"(p)"\gl"wavy" d4:8\glstop\gl"wavy" d3:8\glstop~
+R:  r:8 c#4:4(\mf\< b3:8 d4:4\> c4:4)\!
+R2: s:8 <f#3 g3>:4. <e3 g#3>:2   #? lower-voice chords
+L:  <d2 d3>:1~
