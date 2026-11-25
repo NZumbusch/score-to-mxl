@@ -1,0 +1,55 @@
+# ---------------- page 21 ----------------
+# system 1 (4/4 restated with parentheses = courtesy time sig)
+m page time=4/4
+E:  r:8 ab2:4(\mp bb2:8 c3:8 f3:8 3:2{ d3:8 eb3:8 ab3:8) }
+R:  <g4 d5>:1~
+L:  <c4 e4>:1~   #? chord
+m
+E:  gb3:2~( gb3:8 eb3:4 f3:8)
+R:  r:4 <ab4 db5>:32->(\mf <g4 b4>:8..\> <f#4 c5>:2~)\p
+L:  r:4 <gb3 db4>:32->( <bn3 eb4>:8.. <a3 b3 db4>:2~)
+m
+E:  3:2{ gb3:8(\mf\< bb3:8 an3:8 } c#4:2.~)\f
+R:  <f#4 c5>:4-- r:4 <g4 c5>:32->(\f <f#4 a4>:8..\> <f4 bb4>:4~)\mf
+L:  <a3 db4>:4-- r:4 <eb3 d4>:32->( <a3 c#4>:8.. <bn3 d#4>:4~)
+m
+E:  c#4:8(_"dim." bn3:8 e4:8 d4:8 gn3:8 cn4:8 bb3:8 eb3:8)\>
+R:  <f4 bb4>:1~
+L:  <b3 d#4>:1~
+# system 2
+m sys
+E:  g3:2\trl~ g3:2\trx   #? trill slows down; parenthesised F#3 (trill note) not encoded
+R:  <f4 b4>:8(\mf\< <e4 g4>:8 <eb4 gb4>:8 <d4 f4>:8 3:2{ <c#4 f#4>:8 <c4 e4>:8 <b3 d#4>:8 } <b3 e4 a4 c5>:16 <c#4 fn4 a4 c#5>:16 <c4 e4 a4>:16 <db4 f4 bb4>:16)
+L:  <b2 d3 g3>:8( <bb2 db3 g3>:8 <a2 d3 f3>:8 <g#2 c#3 f3>:8 3:2{ <e2 g#2 c#3>:8 <f#2 c#3 f#3>:8 <g2 bb2 d3>:8 } <c#2 g#2>:16 <c2 g2>:16 <b1 g2>:16 <g1 d2>:16)   #? approximate
+m time=6/4 ts=hide
+E:  f#3:2\fermata 3:2{ r:8 f3:8\< f3:8 } 13:12{ f3:16 f3 f3 f3 f3 f3 f3 f3 f3 f3 f3 f3 f3 }\!^"(feathered beam; accelerate then slow)"
+R:  14:8{ s:16 s s c3:16@1 en3@1 f#3@1 g3@1 s s s s s s s } <c4 e4 a4>:1\fermata   #? RH arpeggio: only first notes read (C3 E3 F#3 G3); remaining ascending notes still TO CHECK vs scan
+L:  14:8{ <ab1 eb2>:16\ped\p ab2 s s s s s s s s s s s s } <b3 e4 g#4>:1\fermata   #? LH arpeggio: only first notes read; chords TO CHECK
+# system 3
+m sys time=6/4 ts=hide text="senza misura"
+E:  f#3:16->(\mf d#3:16 e3:8~ e3:2~ e3:8_"dim." c#3:16 d3:16 b2:16 g2:16 a2:16 g2:16 f#2:16 e2:16 d2:16 f#2:16)   #? last ten 16ths approximate (descending groups, see scan)
+R:  s:4 c#4:16( e4 a4 c#5) <e5 c#6>:1\fermata   #? arpeggio top notes approximate
+L:  <g1 e2>:16\ped(\p g2 d3 g3) s:4 <bb3 d4>:1\fermata   #? approximate
+m time=4/4 mm=q=56 reh="Var. VI Coro" bar=double
+E:  g2:2. r:4
+R:  r:4 <g4 bb4 eb5 g5>:4~(\p 3:2{ <g4 bb4 eb5 g5>:4 <f4 ab4 d5 f5>:8~ } <f4 ab4 db5 f5>:8 <eb4 gb4 c5 eb5>:8~)   #? chord spellings from Audiveris draft
+L:  r:8 <g1 d2>:4( <a1 e2>:8 <bb1 bb2>:8-- <eb2 eb3>:8 3:2{ <c2 c3>:8 <db2 db3>:8 <gb2 gb3>:8 }   #? LH pitches approximate
+m tempo="recit."
+E:  r:4 g2:2.\mp(_"(sing diamond-shaped notes as before)"
+E2: s:2 <f#4@dia d5@paren>:4 <c#5@dia f#5@paren>:4   #? multiphonic notes: sung diamonds + bracketed resultants, approximate
+R:  <eb4 gb4 c5 eb5>:8. <c#4 e4 a4 c#5>:16~ <c#4 e4 a4 c#5>:2\fermata~\> r:4   #? approximate
+L:  <e2 e3>:1\fermata
+# system 4
+m sys tempo="a tempo"
+E:  <g2 d4@dia>:1\fermata   #? approximate
+R:  <c4 e4 a4 c5>:4 <c#4 e4 a4 c#5>:4~ 3:2{ <c#4 e4 a4 c#5>:4 <c#4 f#4 a4 d#5>:8 } <c#4 e4 a4>:4~   #? approximate
+L:  r:8 <a1 a2>:4 <c#2 c#3>:8 <f#2 f#3>:8 3:2{ <d#3 f#3>:8 <e3 b3>:8 <a2 f#3>:8 } s:8   #? approximate
+m tempo="recit."
+E:  r:4 g2:2.\mp_"simile"
+E2: s:2 <f#4@dia d5@paren>:4 <c#5@dia f#5@paren>:4   #? approximate
+R:  <c#4 f4 a4>:8 <b3 d4 g4 b4>:4~ <b3 c4 d4 g4 b4>:2~\fermata\pp s:8
+L:  <g2 g3>:16 <e2 eb3>:16 <fn2 fn3>:16 <g2 g3>:16~ <g2 g3>:2.\fermata
+m tempo="a tempo"
+E:  <g2 d4@dia>:1   #? approximate
+R:  <g4 bb4 eb5 g5>:4~ <g4 bb4 eb5 g5>:4( 3:2{ <a4 c5 f5 a5>:4 <g4 bb4 eb5 g5>:8~ } <g4 bb4 eb5 g5>:4   #? approximate
+L:  r:8 <b1 b2>:4 <c#2 c#3>:8 <d2 d3>:8 <g2 g3>:8 3:2{ <en2 en3>:8 <f2 f3>:8 <bb2 bb3>:8 }   #? approximate

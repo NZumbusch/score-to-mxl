@@ -1,11 +1,11 @@
 # Handoff: continuing the Concert Variations transcription
 
 ## Status
-- Pages 1–20 are transcribed (`transcription/p01.smx` … `p20.smx`, bars 0–262). Each was rendered and compared with the scan.
-- **Next: page 21** (it contains the start of "Var. VI Coro"), then pages 22–29. Page 30 is blank.
+- Pages 1–21 are transcribed (`transcription/p01.smx` … `p21.smx`, bars 0–274). Each was rendered and compared with the scan.
+- Page 21 has several approximate spots marked `#?` (arpeggio notes in bar 268, the Coro chord spellings and multiphonic notes, the senza-misura 16ths). A second pass on these is still needed.
+- **Next: page 22**, then pages 23–29. Page 30 is blank.
 - Audiveris drafts exist for every page except 22 and 28 (it crashed on those two), but they live in
   `work/omr/` (git-ignored). Recreate them with `tools/setup_audiveris.sh` plus the batch command in `docs/FINDINGS.md`.
-- The last chords of page 20 (`R: <ab4 d5>`, `L: <bn3 e4>`) are tied into page 21 bar 1. Add `~` to them in `p20.smx`.
 
 ## Per-page workflow (it works; keep it)
 1. `python3 tools/barlines.py work/sys/pNN.png` gives the bar count per system. Each system starts with `m sys`, each page with `m page`.
@@ -33,6 +33,12 @@
 - Bar header: `m [page|sys] [time=6/8] [ts=hide] [mm=q=56|h.=96] [tempo="a tempo"] [reh="Var. VI Coro"] [bar=double]`.
   Senza-misura bars use `time=N/4 ts=hide`.
 - Mark uncertain readings with a trailing `#?` comment.
+
+## Tip: the last part is a fugue (use theme matching)
+The closing section is a fugue. Identify the subject and countersubject on the first clean statement, then use every
+later entry (transposed, possibly inverted or in stretto) to cross-check and fill in uncertain pitches, accidentals and rhythms:
+copy the intervals/rhythm from the clear statement and verify against the scan. Do the same for repeated accompaniment
+figures and ostinati. Mark anything resolved this way with a short comment.
 
 ## Final QA still to do
 - Re-render the whole score and check every page against the scan: ties that span several bars, missing slur ends,
