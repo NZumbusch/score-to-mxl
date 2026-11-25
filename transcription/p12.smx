@@ -1,0 +1,53 @@
+# ---------------- page 12 ----------------
+# system 1
+m page
+E:  c3:2.~\p c3:8\breath bb2:8\mf\gl"wavy"
+R:  3:2{ <a4 f5>:8\mf <c#5 f5>:8-- <b4 f5>:8-- } <a#4 f5>:16\< <an4 f5> <g#4 f5> <gn4 f5>\! f5:32->(\f d#5:32 e5:8.~\> e5:4~
+R2: s:2 f#4:2->
+L:  3:2{ <c4 e4>:8 <e4 a4>:8-- <d#4 g#4>:8-- } <dn4 gn4>:16 <c#4 f#4> <cn4 fn4> <b3 e4> <a#3 d#4>:2->
+L2: s:2 s:4 c#4:4~
+m
+E:  bb3:8\glstop\gl"wavy"( bb2:8\glstop~\> bb2:2.)\p
+R:  e5:4)\p <a#4 e5>:8-- <an4 e5>:8-- 3:2{ <g#4 e5>:8-- <gn4 e5>:8-- <f#4 e5>:8-- } <fn4 e5>:16\< <f#4 e5> <g4 e5> <g#4 e5>\!
+L:  \clef"bass" <gn1 gn2>:1
+L2: c#4:4 \clef"treble" <c#4 f#4>:8-- <cn4 fn4>:8-- 3:2{ <b3 e4>:8-- <bb3 eb4>:8-- <a3 d4>:8-- } <g#3 c#4>:16 <a3 d4> <b3 e4> <bn3 en4>
+# system 2   (LH treble passages: Audiveris read them in bass clef; transposed +12 diatonic steps)
+m sys
+E:  b2:4\breath a2:8(\mf\gl"wavy" a3:8\glstop~ a3:8\gl"wavy" a2:8\glstop\gl"wavy" a3:8\glstop\gl"wavy" a2:8\glstop~\>
+R:  e5:32->(\mf\> c#5:32 d5:8.~ d5:2.)\p
+R2: a4:2~ a4:2
+L:  <cn4 fn4>:2 \clef"bass" <f#2 f#3>:2
+m
+E:  a2:4)\p 3:2{ r:8 a2:8--\< a2:8-- } b2:8(\mf\gl"wavy" b3:8\glstop\gl"wavy" c#3:8\glstop\gl"wavy" c#4:8\glstop)
+R:  3:2{ r:8 <a4 f5>:8--\< <g#4 f5>:8-- } <gn4 f5>:16 <f#4 f5> <fn4 f5> <e4 f5> dn5:32->(\mf b4:32 c5:8.) cn5:32->( a4:32 b4:8.)
+R2: s:2 d#4:4 c#4:4
+L:  3:2{ <fn2 fn3>:8 \clef"treble" <c4 f4>:8 <b3 e4>:8 } <bb3 eb4>:16 <a3 d4> <ab3 db4> <g3 c4> <f#3 bn3>:8. \clef"bass" <b1 b2>:16 <e3 b3>:8. <a1 a2>:16   #? last 16th
+# system 3
+m sys
+E:  eb3:4.\glstop eb3:8--~(_"quasi cadenza" eb3:16 a3 d4 cn4 bb3\> eb4 a4 g4\!
+R:  bn4:32->(\mf\> ab4:32 bb4:8.~ bb4:2.~)\p
+R2: cn4:1~
+L:  <eb2 bb2 gb3>:1\arp~
+m
+E:  f#4:16\p c4 g3 a3 bb3 fn3 c3 d3 eb3:2~
+R:  bb4:1
+R2: cn4:1
+L:  <eb2 bb2 gb3>:2\> r:8 <eb1 eb2>:4 <f1 f2>:8\!
+m
+E:  eb3:8) \caesura gb2:4(\p^"(fermata, optional)" ab2:8 bb2:8 eb3:8 3:2{ c3:8 db3 gb3) }
+R:  <bb3 c4 en4 an4>:1\p
+L:  <gb1 gb2>:8\ped gb2:4~( <gb2 ab2>:8~ <gb2 ab2 bb2>:8~ <gb2 ab2 bb2 db3>:8~ <gb2 ab2 bb2 db3 eb3>:8~ <gb2 ab2 bb2 db3 eb3 gb3>:8)   #? accumulating chord
+# system 4
+m sys
+E:  en3:1~
+R:  r:4 <d4 g4>:8--\< <db4 g4>:8-- <c4 g4>:8-- <b3 g4>:8-- 3:2{ <a#3 g4>:8-- <b3 g4>:8-- <c4 g4>:8--\! }
+L:  r:4 <ab3 bb3>:8-- <gn3 an3>:8-- <gb3 ab3>:8-- <fn3 gn3>:8-- 3:2{ <e3 f#3>:8-- <fn3 gn3>:8-- <f#3 g#3>:8-- }
+m
+E:  e3:4. e3:8(\< g{g3:8} f3:8--\> e3:8 g{g3:8} f3:8-- e3:8)\!
+R:  g4:32->(\mp\> e4:32 f4:8.~ f4:2.~)\!
+R2: db4:1
+L:  <gn3 an3>:4( ab3:2.~)
+m bar=double
+E:  r:4 e3:8(\pp\< g{g3:8} f3:8~\> f3:8 e3:8)\! r:4
+R:  <d4 f4>:1\fermata\breath \clef"bass"
+L:  ab3:1\fermata
