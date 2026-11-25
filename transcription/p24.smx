@@ -1,0 +1,51 @@
+# ---------------- page 24 (Fugue: exposition continues; piano RH answers the subject a tone higher: a2 b2 a2 | c3 b2 bb2 a2 ...) ----------------
+# Euphonium read directly from the scan and verified by bar sums.  Piano taken from the Audiveris draft; pitches/rhythms
+# flagged #? still need a second look at the scan.
+# system 1
+m page reh="A" time=4/4
+E:  eb3:4\p r:16 ab3:16( gb3:16 f3:16) eb3:8. d3:16 eb3:16( f3:16 eb3:16 d3:16)
+R:  \clef"bass" r:16 a2:16-.\mp b2:16-. a2:16-. c3:16-> b2:16 bb2:16 a2:16 r:16 a2:16-. bn2:16-. a2:16-. eb3:16->-. c3:16 b2:16 a2:16
+L:  eb2:8-. r:8 r:8 eb2:8-. r:4 eb2:8-. r:8
+m
+E:  c3:8.( b2:16 c3:8-.) d3:8-. eb3:8.(_"cresc." d3:16 eb3:8-.) f3:8-.
+R:  f3:16 a2:16 a2:16-. d3:16-. eb3:16 a2:16 ab2:16 an2:16 a2:16-. gb2:16 eb3:16 f3:16-. gb3:16 a2:16 ab2:16 an2:16   #? several pitches/octaves approximate
+L:  r:8 eb2:8-. r:16 eb2:16\< r:16 eb2:16 eb2:8-.\mf r:8 r:8 eb2:8-.   #? approximate
+# system 2
+m sys
+E:  gb3:4(\< f3:4 en3:4 d#3:8 dn3:8)\mf
+R:  an3:4.\mf b3:8( a3:8) f#3:4.   #? approximate
+L:  r:16 d2:16-.\< f2:16-. en2:16-. eb2:16-. d2:16-. a2:16-. ab2:16-. g2:16-. en2:16-. f#2:16-. d2:16-. r:16 b1:16-. c#2:16-. d2:16-.\mp   #? approximate
+m
+E:  c#3:4-- r:16 c#3:16-. c#3:16-. c#3:16-. c#3:16( a#2:16) b2:8~ b2:8. c#3:16-.\p
+R:  e#3:8.\p f#3:16-. f#3:16-. f#3:16-. f#3:16( d#3:16) e#3:8 f#3:4.   #? approximate
+L:  d#2:8 c2:16 c2:16-. b1:16-. r:16 r:4 d#2:8-. r:4   #? approximate
+m
+E:  c#3:16-. c#3:16-. c#3:16 a#2:16 b2:4~ b2:8 bb2:4 an2:8~
+R:  e#3:4 e#3:16-- f#3:16-. f#3:16-. f#3:16-. f#3:16 d#3:16 fn3:8-> dn3:16 eb3:8-> cn3:16\mf   #? approximate
+L:  r:16 b1:16 c#2:16-. d2:16-. d#2:8-.-- r:8 fn2:4-. f#2:8-. r:8   #? approximate
+# system 3
+m sys
+E:  a2:8 g#2:8-- a2:8( g#2:16 a2:16-.) bn2:8( a2:16 b2:16-.) cn3:8( b2:16 c3:16-.)\<_"cresc."
+R:  c3:16 a2:16 b2:16-. c3:16-. d3:16-> b2:16 c3:16-. d3:16-. eb3:16-. c3:16-> d3:16 eb3:16-. d3:8-> b2:16 c3:16->   #? approximate
+L:  r:16 g#2:8.-. c3:4-. a2:8-. r:16 b2:16 a2:16 g#2:16 f#2:16-. r:16   #? rhythm approximate
+m time=2/4
+E:  d3:16( b2:16 c3:16-. d3:16-.) eb3:16-.( c3:16 d3:16 eb3:16-.)
+R:  f3:16-> d3:16 eb3:16-. f3:16-. gb3:16-. eb3:16-> f3:16 gb3:16-.
+L:  fn2:16-> ab2:16 gb2:16-. f2:16-. eb2:16-. gb2:16 f2:16 eb2:16-.
+m time=4/4 reh="B"
+E:  f3:4.(\mf ab2:8-^-.) en3:4( ab2:8-^-. dn3:8~
+R:  ab3:4--\f r:16 db4:16 cb4:16 bb3:16 ab3:8. g3:16 ab3:16 bb3:16 ab3:16 g3:16   #? approximate
+L:  r:16 d2:16-.\f en2:16-. d2:16-. f2:16-> e2:16 eb2:16 d2:16 r:16 d2:16-. en2:16-. d2:16-. ab2:16 f2:16 e2:16 d2:16   #? approximate
+# system 4
+m sys
+E:  d3:8) ab2:8-^-. dn3:16( ab2:16 e3:16 ab2:16) f3:8-. b3:4->( ab2:8-^-.)
+R:  f3:8. e3:16 f3:8-. g3:8-. ab3:8. g3:16 ab3:8 bb3:8-.   #? approximate
+L:  bb2:16 d2:16 d2:16-. g2:16-. a2:16 d2:16 db3:16 dn2:16 d2:16-. bn2:16 a2:16 bb2:16-. bb2:16 d2:16 c#3:16 d2:16   #? approximate
+m
+E:  r:16 g2:16-.( bb2:16 an2:16 ab2:16 g2:16 d3:16 db3:16 c3:16 a2:16 b2:16 g2:16) r:16 e2:16-. f#2:16-.\< g2:16-.   #? pitches approximate (read from scan)
+R:  bn3:4 bb3:4 an3:4 ab3:8 g3:8   #? approximate
+L:  d3:4. e3:8 d3:8 b2:4~ b2:8   #? approximate
+m
+E:  g#2:8-. r:8 r:8 g#2:16( f#2:16-. fn2:16-. e2:16-.) r:16 r:4 s:16
+R:  f#3:4\f r:16 f#3:16-. f#3:16-. f#3:16-. f#3:16 d#3:16 e3:8~ e3:8. f#3:16-.\mp   #? approximate
+L:  b2:16\mp b2:16-. b2:16-. b2:16-. b2:16 g#2:16 a#2:8~ a#2:8. b2:16-. b2:16-. b2:16-. b2:16 g#2:16   #? approximate
