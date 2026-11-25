@@ -1,0 +1,61 @@
+# ---------------- page 10 ----------------
+# system 1
+m page
+E:  eb3:2.~ r:4.
+R:  <ab4 ab5>:4.\pp \clef"bass" <ab3 c#4 f4 bn4@cacc>:4. \clef"treble" fn5:8( c5:4)
+R2: ab4:8.. \clef"bass" ab3:32( s:8) s:4. \clef"treble" an4:4.
+L:  <ab1 ab2>:4. \clef"treble" f#4:4( en4:8 <c#4 e4>:8..) \clef"bass" <g#1 g#2>:32( <an1 an2>:8)
+L2: s:4. c#4:4. s:4.
+m
+E:  r:4. b2:8..\p b2:32( c#3:8) d3:4.~
+R:  b4:4. \clef"bass" <b3 f4 a4 dn5>:4. \clef"treble" fn5:8( eb5:4)
+R2: b4:8.. \clef"bass" d#3:32( s:8) s:4. \clef"treble" c5:4.
+L:  <g1 g2>:4. \clef"treble" a4:4( g4:8 <f#4 an4>:8..) \clef"bass" dn2:32( c#2:8)
+L2: s:4. f#4:4. s:4.
+# system 2
+m sys
+E:  d3:4\breath d3:8~ d3:8.. d3:32( a3:8) f#3:8(\< g#3:8 g#4:8~)\!
+R:  d5:4. \clef"bass" s:4. \clef"bass" c4:8( d4:4)
+R2: d5:8.. \clef"bass" f#3:32( <f#3 c4 fn4>:8~ <f#3 c4 f4>:4.) f#3:4.\<
+L:  d2:4. \clef"treble" f#4:4( g#4:8 <c#4 e4 a4>:8..) \clef"bass" dn2:32( c#2:8)   #? inner chord
+L2: s:4. d#4:4. s:4.
+m
+E:  g#4:4.\> f#4:2.~\!
+R:  \clef"treble" c6:16(\mp a#5 b5:8. g5:16 a5:8. f5:16 g5:8~ g5:16 e#5 f5:8. d#5:16   #? first beat
+R2: e#5:4\p d#5:8~ d5:8 c5:4 b4:4 a#4:8~
+L:  b1:8.(\p f#2:16 c#3:8~ c#3:16 \clef"treble" b3:16 f#4:8.) b4:16( d5:8 b5:8 f#6:8~)   #? approximate
+L2: b1:4. s:4. s:4.
+m
+E:  f#4:2.~^"poco rit." f#4:4.~
+R:  e#5:8.(^"poco rit." c#5:16 d#5:8~ d#5:16 b#4:16 c5:8 d5:8) <c5 en5>:4.\pp   #? 
+R2: a#4:8\> g4:4 f4:4\! r:8 s:4.
+L:  f6:16( b5:16 f#5:8. b4:16 \clef"bass" g#2:16 b3:8 f#3:8 a2:16) <g2 c3>:4.   #? approximate
+# system 3: senza misura (X/4).  Tempo relation (dotted quarter = quarter): beat stays 56.
+# Feathered (accelerating) beams written as 16ths; fingerings = alternate-fingering timbral trill.
+m sys time=24/16 ts=hide mm=q=56 text="senza misura (X/4)"
+E:  f#4:4 \breath f#4:16(\<^"(accel. — feathered beam)"#"2"#"3" f#4#"1"#"2"#"3" f#4#"2"#"3" f#4#"1"#"2"#"3"^"simile" f#4 f#4 f#4 f#4) f#4:4\fermata\trem3\mf\> f#4:32->(#"3" d#4:32 e4:8.~ e4:4\fermata)\!   #? turn pitches
+R:  \clef"bass" <e3 g3>:1\fermata s:2
+L:  <g2 c3>:1\fermata s:2
+m time=9/8 mm=q.=56 tempo="a tempo"
+E:  e4:2.~ e4:4.~
+R:  r:8..\p\> en3:32( <e3 bb3 eb4>:8~ <e3 bb3 eb4>:4.) \clef"treble" <db5 gb5>:4.~\pp   #? last chord
+L:  c2:4.\ped \clef"treble" bb4:4( ab4:8 <eb4 gn4>:4.~)\unped
+L2: s:4. dn4:4. s:4.
+m time=23/16 ts=hide mm=q=56 text="senza misura (X/4)"
+E:  e4:4 \breath e4:16(\<#"2" e4#"1"#"2"#"3" e4#"2" e4#"1"#"2"#"3"^"simile" e4 e4 e4) e4:4\fermata\trem3\mf\> e4:32->(#"2" c#4:32 d4:8.~ d4:4\fermata)\!   #? turn pitches
+R:  <db5 gb5>:1\fermata s:4..
+L:  <eb4 g4>:1\fermata s:4.. \clef"bass"
+# system 4
+m sys time=9/8 mm=q.=56 tempo="a tempo"
+E:  d4:2.~ d4:4.~
+R:  r:8..\p\> f#3:32( <f#3 c4 fn4>:8~ <f#3 c4 f4>:8..) a4:32( <a4 d#5 g#5>:8~ <a4 d#5 g#5>:4.)\pp
+L:  d2:4.\ped \clef"treble" <f#4 a4>:4.~ <f#4 a4>:4.   #? LH chords
+L2: s:4. s:4. <a5 c#6>:4.\pp
+m time=6/4 mm=q=60 tempo="c." bar=double
+E:  d4:4\breath eb4:32(\p c4:32 dn4:8.~ d4:16 b3:16 c4:8~ 3:2{ c4:8 a3:8 b3:8~ } b3:8 g#3:8 a3:8 b3:8
+R:  R
+L:  R
+m time=4/4 mm=q=66 reh="Var. III Ripresa"
+E:  c4:2) r:2
+R:  r:8 c4:4(\f <c4 d4>:8)\< <c4 eb4>:8 <d4 ab4>:8 3:2{ <c4 f4>:8 <b3 f#4>:8 <c4 bn4>:8\! }
+L:  r:4 r:8 \clef"bass" bb3:8( ab3:8) <gb3 bb3>:8 3:2{ <f3 an3>:8 <e3 g#3>:8 <eb3 gn3>:8 }
