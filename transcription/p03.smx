@@ -29,8 +29,21 @@ m
 E:  <f#2 c#3@dia a#3@paren>:1~
 R:  r:4 a#2:16(\p e3 an3 g3 f#3:4) \clef"treble" c#4:16( e4 an4 g4)
 L:  r:4 s:4 e3:16( a#3 d#4 c#4 cn4:4)
-L2: r:4 f#1:2.\ped
+L2: s:4 f#1:2.\ped
 m
 E:  <f#2 cn3@dia an3@paren>:8)\fermata\caesura f#2:4(\p g#2:8 a#2 d#3 3:2{ b#2:8 c#3 f#3) }
 R:  <cn5 en5 an5>:1\fermata
 L:  \clef"treble" <f#4 a#4>:1\fermata\unped  #? lower chord accidentals unclear (sharp + naturals); A#4 assumed
+# system 4  (draft from Audiveris, corrected against scan)
+m sys
+E:  e3:1~
+R:  \clef"treble" r:4\p <dn5 gn5>:8--\< <db5 g5>:8-- <c5 g5>:8-- <b4 f5 g5>:8-- 3:2{ <bb4 e5 g5>:8-- <a4 c#5 g5>:8-- <bb4 dn5 g5>:8-- }
+L:  \clef"treble" r:4 <e4 g#4 a#4>:8-- <eb4 gn4 an4>:8-- <d4 f#4 bb4>:8-- <db4 fn4 a4>:8-- 3:2{ <c4 en4 g#4>:8-- <b3 eb4 fn4>:8-- <g#3 dn4 f#4>:8-- }
+m
+E:  e3:4. e3:8(\< g{g3:8} f3:8\> e3 g{g3:8} f3 e3)\!
+R:  <an4 cn5 g5>:32(\!\> en5 <ab4 db5 f5>:8.~ <ab4 db5 f5>:2.~)
+L:  <a3 c#4>:32( e4 <bb3 dn4 f4>:8.~ <bb3 d4 f4>:2.~)
+m time=7/8 ts=hide bar=double
+E:  r:4 e3:8(\pp g{g3:8} f3:8~ f3:8 e3:8-.) r:8\fermata^"(long)"
+R:  <ab4 db5 f5>:2..\fermata\breath
+L:  <bb3 d4 f4>:2..\fermata \clef"bass"
