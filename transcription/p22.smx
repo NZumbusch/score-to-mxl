@@ -1,0 +1,53 @@
+# ---------------- page 22 ----------------
+# NOTE: no Audiveris draft exists for this page. Euphonium line + bar structure are the priority; piano pitches are
+# best-effort (marked #?) and need a second pass against the scan.
+# Multiphonics: played pitch (G-flat 2) + sung diamond + bracketed resultant (sum tone: Gb2+Eb3 -> Cb4, Gb2+Db3 -> Bb3).
+# system 1
+m page tempo="recit."
+E:  r:2 gb2:4\mf~ <gb2 eb3@dia cb4@paren>:4~
+R:  3:2{ <g4 bb4 d5>:8 <a4 db5 f5>:8 <b4 d5 g5>:8 } <d4 g4 b4 d5>:2.~   #? first chords approximate
+L:  <ab2 ab3>:8 <f2 f3>:8 <g2 g3>:8 <ab2 ab3>:8 <c3 c4>:16 <b2 b3>:16 <db3 db4>:8 <d3 d4>:4~   #? approximate
+m
+E:  gb2:1~
+E2: <db3@dia bb3@paren>:4 <eb3@dia cb4@paren>:4 <d3@dia b3@paren>:2
+R:  <d4 g4 b4 d5>:2~ s:4 <db4 gb4 bb4 db5>:4~\> _"a tempo"
+L:  <d3 d4>:2~ r:8 <gb1 gb2>:4 <ab1 ab2>:8
+m tempo="a tempo"
+E:  r:8 d3:8\mf\gl"wavy"( 3:2{ e4:8-. eb4-. e4-. } 3:2{ d4:8-. c4-. c4-. } b3:8 b3:16 g3:16)   #? last beat approximate
+R:  <b3 d4 g4 b4>:1~\p
+L:  <a1 a2>:1~
+# system 2
+m sys
+E:  g{f#4:16} c#4:16( b3 g{d4:16} c4 b3 g{d4:16} c4 b3 c4:16 b3 c4 a3 b3 g3 6:4{ a3:16 g3 f#3 g3 a3 b3 })   #? 16th groups approximate (see scan: grace-note figure descending by step)
+R:  <b3 d4 g4 b4>:1~
+L:  a1:1~
+m
+E:  f#3:2~( f3:4 e3:8) r:8   #? "(1/2 valve)" marking above
+R:  <b3 d4 g4 b4>:2~\mf\< <a3 c#4 e4 g#4>:2~\f\>   #? approximate
+L:  r:4 16:8{ a2:16 f#2 a1 f#1 d1 a1 g1 f1 a2 e2 g2 f2 b1 g1 d1 f1 } c3:8( b1:8)   #? approximate
+m
+E:  r:8 f3:8( e3:8 a3:4. g3:4)\mp\<
+R:  <g3 b3 e4 a4>:2~\p <f3 a3 d4 g4>:2   #? approximate
+L:  <c3 b1>:4( c3:2) s:4   #? approximate
+# system 3 (piano: mp semplice 5-tuplet runs; best-effort pitches)
+m sys
+E:  r:8 f3:8( 3:2{ e3:8 a3 g3 } c4:8@na bb3:8) f#3:4~\<\>   #? bar structure from scan: 2 bars on this system
+R:  b3:16(\p d4 f4 a4) r:8 r:8 5:4{ a3:16(\mp e4 f4 b4 c5 } 5:4{ f#5 g5 b5 d5 e5 } )   #? approximate
+L:  c#3:8~( f3:8 c#3:8) a3:8( f3:8 c3:8) b1:4   #? approximate
+m
+E:  f3:8 g#3:8 3:2{ a3:8 g3 c#4 } r:2   #? second bar of system: rhythm approximate
+R:  d4:16(\p f#4 a4 d5) r:8 r:4 s:4.
+L:  c#3:8~( s:8) a3:8( c3:8) s:2   #? approximate
+# system 4 (piano is approximate: #? -- second pass needed)
+m sys
+E:  b3:16\<(\> e4 d#4@acc d4 b3:16 c4 f#4 e4 c4 d4 e4 c4 d4 e4 f4 e4)   #? 16th pitches approximate (last 4 guessed)
+R:  e4:16(\cresc g4 b4 e5) r:8 r:8 d4:16( f4 a4 d5) r:8 r:8   #? approximate
+L:  <b1 c#3>:8( c3:8) c2:4 c3:4 c2:4   #? approximate
+m
+E:  d4:32->(\ff e4 g4:8.~ g4:2) g4:8 r:8
+R:  <e4 g4 c5 e5>:8->\sff r:8 r:4 e5:16 <g5 c6 e6>:16 e5:16 <g5 c6 e6>:16 e5:16 <g5 c6 e6>:16 <g5 c6 e6>:8   #? approximate
+L:  <e2 f#2 b2>:4 e2:4 e2:4 e2:4   #? approximate
+m
+E:  d4:32->(\ff e4 g4:8.~ g4:2) g4:8 r:8
+R:  r:2 e5:16 <g5 c6 e6>:16 e5:16 <g5 c6 e6>:16 e5:16 <g5 c6 e6>:16 <g5 c6 e6>:8   #? approximate
+L:  r:4 c2:4 c2:4 c2:4   #? approximate

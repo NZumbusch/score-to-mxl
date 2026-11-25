@@ -1,9 +1,10 @@
 # Handoff: continuing the Concert Variations transcription
 
 ## Status
-- Pages 1–21 are transcribed (`transcription/p01.smx` … `p21.smx`, bars 0–274). Each was rendered and compared with the scan.
+- Pages 1–22 are transcribed (`transcription/p01.smx` … `p22.smx`, bars 0–286). Each was rendered and compared with the scan.
+- Page 22 has NO Audiveris draft; its euphonium line is good but the piano pitches are best-effort (#?) and need a second pass.
 - Page 21 has several approximate spots marked `#?` (arpeggio notes in bar 268, the Coro chord spellings and multiphonic notes, the senza-misura 16ths). A second pass on these is still needed.
-- **Next: page 22**, then pages 23–29. Page 30 is blank.
+- **Next: page 23**, then pages 24–29. Page 30 is blank.
 - Audiveris drafts exist for every page except 22 and 28 (it crashed on those two), but they live in
   `work/omr/` (git-ignored). Recreate them with `tools/setup_audiveris.sh` plus the batch command in `docs/FINDINGS.md`.
 
