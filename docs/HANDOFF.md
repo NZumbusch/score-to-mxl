@@ -1,7 +1,7 @@
 # Handoff: continuing the Concert Variations transcription
 
 ## Status
-- Pages 1–24 are transcribed (`transcription/p01.smx` … `p24.smx`, bars 0–308). Each was rendered and compared with the scan.
+- See docs/STATUS.md for the current page-by-page state (all 29 pages are in; 25–27 and 29 are DRAFT, 28 is a placeholder).
 - Page 22 has NO Audiveris draft; its euphonium line is good but the piano pitches are best-effort (#?) and need a second pass.
 - Page 21 has several approximate spots marked `#?` (arpeggio notes in bar 268, the Coro chord spellings and multiphonic notes, the senza-misura 16ths). A second pass on these is still needed.
 - **Next: page 25**, then pages 26–29 (fugue; subject = `r16 g2 a2 g2 | bb2-> a2 ab2 g2 | r16 g2 an2 g2 | bb2-> a2 ab2 g2`, see top of p23.smx). Page 23: fugue bars 2-6 euph pitches and all piano are best-effort `#?`. Page 30 is blank.

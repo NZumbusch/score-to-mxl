@@ -1,0 +1,41 @@
+# ---------------- page 29 (fugue; FIRST-PASS DRAFT from Audiveris: bar structure/rhythm/dynamics enforced, pitches need review) ----------------
+m page
+E:  gb4:16 eb4:16 f4:8~ f4:4~ f4:16 f4:16-. f4:16-. f4:16-. f4:16 d4:16 eb4:8~   #? DRAFT
+R:  f5:16-.\f\f <f5 gb5>:64-. ab5:8~ d5:16 ab5:4~ ab5:8. ab5:16-. ab5:16-. s:8 s:32 s:64   #? DRAFT
+L:  b4:16 b4:16-. b4:16-. b4:16-. s:2 s:4   #? DRAFT
+m
+E:  eb4:4~ eb4:16 eb4:16-. eb4:16-. eb4:16-. eb4:8 c4:8\p db4:4-.->   #? DRAFT
+R:  e#5:16 c5:16 c#5:8~ <c#5 f5>:4~ <c#5 f5>:8.\ppp <bn4 g5>:16~ <b4 g5>:8 <a4 fn5>:8~   #? DRAFT
+L:  a4:16-. a4:16-. a4:16 f#4:16 g4:2 f#4:8. eb4:16~   #? DRAFT
+m
+E:  a3:8-> f#3:16 gn3:16~\mp g3:16 eb3:16 fn3:16 g3:16 a3:16 g3:16 a3:16 bb3:16 c4:16 bb3:16 c4:16 db4:16   #? DRAFT
+R:  <a4 f5>:16 <g4 eb5>:8. <f4 db5>:8-.\mp r:8 r:16 db4:16 eb4:16 <db4 fb4>:16 <eb4 gb4>:16 <db4 fb4>:16 <eb4 gb4>:16 <en4 gn4>:16   #? DRAFT
+L:  eb4:8 db4:8~ db4:8-. r:16 cb5:16 d5:16 cb5:16 d5:16 e5:16 f5:16 e5:16 f5:16 gb5:16   #? DRAFT
+m sys
+E:  eb4:16 db4:16 eb4:16 en4:16 f#4:4~ f#4:16\f dn3:16\mf e3:16 f#3:16 g#3:16 f#3:16 g#3:16 a3:16   #? DRAFT
+R:  <f#4 a4>:16 <e4 g4>:16 <f#4 a4>:16 <g4 bb4>:16 <a4 c5>:16 <g4 bb4>:16 <a4 c5>:16 <g4 bb4 d5>:16\f <f#4 c5 e5>:8-. r:8 s:4   #? DRAFT
+L:  c4:16 bb3:16 c4:16 dn4:16 e4:16 d4:16 e4:16 e3:4 e3:16 d3:16 e3:16 f#3:16 s:16   #? DRAFT
+m
+E:  b3:16 a3:16 b3:16 c4:16 d4:4~ d4:16\f bb2:16 c3:16 d3:16 e3:16 d3:16 e3:16 f3:16   #? DRAFT
+R:  <d4 f#4>:16 <c4 e4>:16 <d4 f#4>:16 <e4 g4>:16 <f#4 a4>:16 <e4 g4>:16 <f#4 a4>:16 <g4 b4>:16 <fn4 ab4 c5>:8-.\f s:4 s:8   #? DRAFT
+L:  g#3:16 f#3:16 g#3:16 a3:16 b3:16 a3:16 b3:16 c4:16 <bb2 fn3 bb3>:8-. r:16 bb2:16 c3:16 bb2:16 c3:16 d3:16   #? DRAFT
+m
+E:  g3:16 f3:16 g3:16 a3:16 bb3:16 a3:16 bb3:16 c4:16 db4:16 c4:16 bb3:16 a3:16 bb3:16 a3:16 g3:16 f#3:16   #? DRAFT
+R:  <bb3 d4>:16 <ab3 c4>:16 <bb3 d4>:16 <c4 eb4>:16 <db4 fb4>:16 <c4 eb4>:16 <db4 fb4>:16 <eb4 gb4>:16 gn4:8 c5:8 bb4:8 eb5:8   #? DRAFT
+L:  e3:16 d3:16 e3:16 f3:16 g3:16 f3:16 g3:16 ab3:16 bb3:16 an3:16 bb3:16 c4:16 db4:16 c4:16 bb3:16 a3:16   #? DRAFT
+m sys
+E:  e3:4->\ff e3:16 e3:16-> f#3:16-> e3:16-> 3:2{ g3:32 f#3:32 fn3:32 } e3:8.~ e3:16 e3:16-> f#3:16-> e3:16->   #? DRAFT
+R:  en5:4\ff bb4:32 a4:32 ab4:32 g4:8~ g4:16 g4:16-> ab4:16-> g4:16-> s:4 s:32   #? DRAFT
+L:  g3:8 <c2 c3>:8 <d2 d3>:8 <c2 c3>:8 s:2   #? DRAFT
+m
+E:  3:2{ bb3:32-> g3:32 f#3:32 } e3:8.-> e3:16 e3:16-> f#3:16-> e3:16-> 3:2{ c4:32-> g3:32 f#3:32 } e3:8. e3:16 e3:16-> f#3:16-> e3:16->   #? DRAFT
+R:  r:2 g4:16 g4:16-> an4:16-> g4:16-> <bb4 eb5>:8-> g4:16-> s:16   #? DRAFT
+L:  s:2 <d2 d3>:8 <c2 c3>:8 <g2 g3>:4->   #? DRAFT
+m sys
+E:  db4:1->\ff\p   #? DRAFT
+R:  <bb4 e5 a5>:16-> s:8 <c5 e5 f5>:16-> s:2 s:4   #? DRAFT
+L:  s:16 bb2:16 bb2:16 s:2 s:4 s:16   #? DRAFT
+m
+E:  d4:16 db4:16->\p db4:16 db4:16-> db4:16 db4:16-> db4:16-> db4:16->\ff db4:16-> bb3:16 c4:8-> r:4\fermata   #? DRAFT
+R:  s:2 s:4 e6:4   #? DRAFT
+L:  <e3 fb3 ab3 d4>:2.\fermata s:4   #? DRAFT

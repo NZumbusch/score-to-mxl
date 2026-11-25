@@ -434,6 +434,8 @@ class Writer:
                         raise Err(f'{meas.line}: voice {k} too long: {Lv} > measure {L} (m{meas.idx})')
                     self.warn(f'{meas.line}: m{meas.idx} voice {k} short: {Lv} of {L} quarters')
                 meas.voices[k] = (evs, Lv, d)
+        self.fix_ties()
+        self.fix_slurs()
         # divisions
         div = 1
         for meas in s.measures:
@@ -449,6 +451,81 @@ class Writer:
             div = lcm(div, meas.length.denominator)
         self.div = div
         return self.xml()
+
+    def fix_ties(self):
+        """Make tie flags consistent: a tied note may omit its accidental (it is inherited), and a tie whose
+        continuation (same step/octave, same sounding pitch) does not follow is dropped with a warning."""
+        s = self.s
+        removed = 0
+        voice_keys = {}
+        for k, (pid, staff, vno) in s.voicemap.items():
+            voice_keys.setdefault(k, None)
+        for k in voice_keys:
+            pending = {}   # (step, octave) -> Pitch object that carries tie=True
+            for meas in s.measures:
+                if k not in meas.voices:
+                    continue
+                for ev in meas.voices[k][0]:
+                    if not isinstance(ev, Event) or ev.grace:
+                        continue
+                    if ev.kind in ('rest', 'mrest', 'space'):
+                        for pt in pending.values():
+                            pt.flags.pop('tie', None); removed += 1
+                        pending = {}
+                        continue
+                    new_pending = {}
+                    for pt in ev.pitches:
+                        key = (pt.step, pt.octave)
+                        origin = pending.pop(key, None)
+                        if origin is not None:
+                            if pt.acc == '' and origin.alter != 0:
+                                pt.acc = origin.acc
+                                pt.flags['noacc'] = True
+                            elif pt.alter == origin.alter:
+                                pt.flags['noacc'] = True
+                            else:
+                                origin.flags.pop('tie', None); removed += 1; self.warn(f'{ev.line}: tie on {origin.step}{origin.acc}{origin.octave} dropped (next {pt.step}{pt.acc}{pt.octave})')
+                                origin = None
+                        if pt.flags.get('tie'):
+                            new_pending[key] = pt
+                    for pt in pending.values():       # tied notes that were not continued
+                        pt.flags.pop('tie', None); removed += 1; self.warn(f'{ev.line}: tie on {pt.step}{pt.acc}{pt.octave} dropped (not continued by next chord)')
+                    pending = new_pending
+            for pt in pending.values():
+                pt.flags.pop('tie', None); removed += 1
+        if removed:
+            self.warn(f'{removed} tie flag(s) without matching continuation were dropped (check ties near wrong chords/pitches)')
+
+    def fix_slurs(self):
+        """Drop slur starts that are never closed and stops that were never opened (per voice, slur number)."""
+        s = self.s
+        dropped = 0
+        for k in s.voicemap:
+            open_ = {}   # number -> att tuple (ev, att)
+            for meas in s.measures:
+                if k not in meas.voices:
+                    continue
+                for ev in meas.voices[k][0]:
+                    if not isinstance(ev, Event):
+                        continue
+                    for att in list(ev.atts):
+                        if att[0] != 'slur':
+                            continue
+                        num = 1 if att[1] in '()' else 2
+                        if att[1] in ')]':
+                            if num in open_:
+                                del open_[num]
+                            else:
+                                ev.atts.remove(att); dropped += 1
+                        else:
+                            if num in open_:           # previous start never closed
+                                oev, oatt = open_[num]
+                                oev.atts.remove(oatt); dropped += 1
+                            open_[num] = (ev, att)
+            for oev, oatt in open_.values():
+                oev.atts.remove(oatt); dropped += 1
+        if dropped:
+            self.warn(f'{dropped} unmatched slur marks were dropped')
 
     # ---------------------------------------------------------------
     def dur(self, q):
@@ -741,7 +818,9 @@ class Writer:
                 n.append('</note>')
                 o.append(''.join(n))
             pos += ev.duration
-        # ties left open and next event is in next measure -> keep; let-ring handled at end
+        if pos < meas.length and not direction_only:
+            o.append(f'<forward><duration>{self.dur(meas.length - pos)}</duration></forward>')
+            pos = meas.length
         return pos
 
     def _acc_needed(self, part, meas, pt, staff):

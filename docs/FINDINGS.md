@@ -54,3 +54,13 @@ landscape pages rotated 90°, ~300 dpi).
   with the surrounding bars), but always confirm against the zoomed scan.
 - Audiveris drafts are good for pitches of simple lines; their voice/rhythm assignment in
   dense piano writing is often wrong.
+
+## Later findings
+- `tools/draft2smx.py` turns an Audiveris page into a bar-length-enforced SMX draft (monophonic line per part, pads/truncates to the bar).
+  Good for structure/rhythm/dynamics; pitches in dense piano are unreliable. It saved a lot of effort on the dense fugue pages.
+- Audiveris crashes (NullPointerException in the voice/rhythm step) on pages 22 and 28.
+- `tools/barlines.py` gives bar counts per system; double barlines show up as two lines < 100 px apart (count them once).
+- The converter auto-carries accidentals through ties and drops ties/slurs without a matching partner (warnings tell where).
+- A single `~` on a chord ties every note of the chord; split into separate voices or write the tie only where the pitch repeats.
+- Reading dense chords: notehead overlay (`tools/heads.py`) + zoomed crops; use repeated figures (Siciliano pattern, ostinati,
+  fugue subject) to validate rhythm and pitch.
