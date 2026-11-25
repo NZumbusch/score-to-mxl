@@ -685,7 +685,7 @@ class Writer:
                 n.append(f'<voice>{vnum}</voice>')
                 if ev.kind != 'mrest':
                     n.append(f'<type>{TYPES[ev.dur_base]}</type>' + '<dot/>' * ev.dots)
-                if pt is not None and (pt.acc or pt.flags.get('showacc')) and not pt.flags.get('noacc'):
+                if pt is not None and self._acc_needed(p, meas, pt, evstaff):
                     an = ACC_NAME.get(pt.acc, 'natural') if pt.acc not in ('+', '-') else \
                         ('quarter-sharp' if pt.acc == '+' else 'quarter-flat')
                     par = ' parentheses="yes"' if pt.flags.get('cacc') else ''
@@ -743,6 +743,23 @@ class Writer:
             pos += ev.duration
         # ties left open and next event is in next measure -> keep; let-ring handled at end
         return pos
+
+    def _acc_needed(self, part, meas, pt, staff):
+        """Print an accidental unless the same pitch with the same alteration already occurred
+        earlier in this measure on this staff (standard engraving rule).  @acc/@cacc force it,
+        @na suppresses it."""
+        st = self.__dict__.setdefault('_accstate', {})
+        k = (part['id'], meas.idx, pt.flags.get('staff', staff))
+        d = st.setdefault(k, {})
+        prev = d.get((pt.step, pt.octave))
+        d[(pt.step, pt.octave)] = pt.alter
+        if pt.flags.get('noacc'):
+            return False
+        if pt.flags.get('showacc'):
+            return True
+        if not pt.acc:
+            return prev is not None and prev != 0   # natural needed after an earlier alteration
+        return prev is None or prev != pt.alter
 
     def first_note_notations(self, ev, cmds, slur_state, key, trill_open):
         nt = []

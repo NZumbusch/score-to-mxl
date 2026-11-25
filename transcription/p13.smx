@@ -1,0 +1,85 @@
+# ---------------- page 13: Var. IV Scherzo (6/8, very fast, dotted half = 92-100) ----------------
+# RH: repeated 8ths (fingering 1-3 alternating, simile). Upper/lower LH voices where two stems.
+m page time=6/8 reh="Var. IV Scherzo" tempo="Very fast" mm=h.=96
+E:  r:4 r:8 db3:8(\p eb3:8 f3:8
+R:  c#3:8->\fp#"1" c#3#"3" c#3#"1" c#3#"3" c#3#"1" c#3#"3"
+L:  c#2:8->-. r:8 r:8 r:4 r:8
+m
+E:  bb3:2.~
+R:  c#3:8^"simile" c#3 c#3 c#3 c#3 c#3
+L:  r:4. g#2:4(\mf\< b2:8)\!
+L2: s:4. e2:4.
+m
+E:  bb3:2.\<
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <f#2 a#2>:4.\> <e2 g#2>:4.\!
+m
+E:  bb3:8-.)\! r:8 r:8 g3:8(\< ab3:8 db4:8
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  c#2:8->-. r:8 r:8 r:4 r:8
+m
+E:  bn3:2.~\!
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  r:4. a2:4( cn3:8)
+L2: s:4. f2:4.
+m sys
+E:  b3:2.~
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <g2 b2>:4. a2:4\< c3:8\!
+L2: s:4. f2:4.
+m
+E:  b3:2.
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <g2 b2>:4.\> <f2 a2>:4.\!
+m
+E:  b3:8-. r:8 r:8 db3:8( eb3:8 f3:8
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <c#2 g#2>:8->-. r:8 r:8 r:4 r:8
+m
+E:  bb3:8 ab3:8 db4:8 bn3:4.
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  r:4. b2:4( d3:8)
+L2: s:4. g2:4.
+m
+E:  b3:8\< g3:8 an3:8 b3:8 d#4:8 c#4:8\!
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <a2 c#3>:2.~
+m sys
+E:  e4:2.~
+R:  dn3:8 dn3 dn3 dn3 dn3 dn3
+L:  <a2 cn3>:4. <g2 b2>:4.\<
+m
+E:  e4:8\> eb4:8 d4:8 db4:8 c4:8 b3:8)\!
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <eb2 bb2>:8->-.\! r:8 r:8 r:4 r:8
+m
+E:  bb3:2.~(
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  r:4. bb2:4(\< db3:8)\>
+L2: s:4. gb2:4.
+m
+E:  bb3:2.
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <ab2 c3>:4.\! <gb2 bb2>:4.
+m
+E:  bb3:8-.) r:8 r:8 bb3:8(\< bn3:8 c4:8\!
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  eb2:8->-. r:8 r:8 r:4 r:8
+m sys
+E:  db4:8\> c4:8 bn3:8 bb3:4)\! r:8
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  r:4. b2:4( d3:8)
+L2: s:4. g2:4.
+m
+E:  gb3:8(\< gn3:8 ab3:8\! an3:8\> ab3:8 g3:8\!
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <a2 c#3>:4. b2:4\< d3:8\!
+L2: s:4. g2:4.
+m
+E:  gb3:4) r:8 eb3:8(\< en3:8 f3:8\!
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <a2 c#3>:4.\> <g2 b2>:4.\!
+m
+E:  gb3:8\> f3:8 e3:8 eb3:8 d3:8 db3:8\!
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <f2 cn3>:8->-. r:8 r:8 r:4 r:8
