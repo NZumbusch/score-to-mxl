@@ -1,0 +1,55 @@
+# ---------------- page 23 ----------------
+# FUGUE SUBJECT (euph, Var. VII bar 1):  r16 g2 a2 g2 | bb2-> a2 ab2 g2 | r16 g2 an2 g2 | bb2-> a2 ab2 g2
+# Use this (transposed) to cross-check later fugue entries.
+# system 1: end of Var. VI.  Piano uses 8va (RH) / 8vb (LH) -- pitches below are WRITTEN pitches; exact piano chords best-effort (#?).
+m page time=4/4
+E:  r:4 d4:16-.\p e4:16-. g4:8~ g4:2~
+R:  r:2 \8va <g5@1 c6 e6>:16->\f\< e5:16 <g5 c6 e6>:16 e5:16 <g4 c5 e5>:16 e4:16 <g3 c4 e4>:16 e3:16   #? approximate
+L:  r:2 \8vb <c#4 a#4>:16-> f#3:16 <c#3 a#3>:16 f2:16 <c#4 a#4>:16 d#3:16 <a#2 f#3>:16 d#2:16   #? approximate
+m tempo="expansively"
+E:  g4:8-. g4:4-> f4:8-> eb4:8-- bb3:8-- 3:2{ c4:8-- g3:8-- a3:8-- }\ff
+R:  eb3:8->-.\sff r:8 r:4 r:2   #? written pitch; 8va
+L:  <a3 a4>:8->-. r:8 r:4 r:2   #? approximate
+m
+E:  f#3:1~->
+R:  r:8 <c3 eb3>:8->-.\f <c3 eb3>:8-. <bn2 f3>:8-> <c3 eb3>:8-. <c3 eb3>:8->-. r:4   #? approximate
+L:  r:8 <a3 a4>:8-> r:8 <bb3 bb4>:8 <a3 a4>:8-. r:8 r:4   #? approximate
+# system 2
+m sys
+E:  f#3:8\mf r:8 g3:8-- fn3:8-- eb3:8-- bb2:8-- 3:2{ c3:8-. g2:8-. a2:8-. }
+R:  R
+L:  R
+m
+E:  f#2:1~\p
+R:  r:8 <c3 eb3>:8-.\p r:8 <c3 eb3>:8-. <bn2 f3>:8-- <c3 eb3>:8-. <bn2 f3>:8-- <c3 eb3>:8-.   #? approximate
+L:  <c2 c3>:8-. r:8 <c2 c3>:8-. <db2 db3>:8-- <c2 c3>:8-. <db2 db3>:8-- <c2 c3>:8-. r:8   #? approximate
+m bar=double
+E:  f#2:1\fermata
+R:  r:8 <c3 eb3>:8-. r:4 <c3 eb3>:8-. r:8 r:4\fermata   #? approximate
+L:  r:8 <c2 c3>:8-. r:4 <c2 c3>:8-. r:8 r:4\fermata
+# system 3: Var. VII Fuga (piano: only the bottom staves)
+m sys reh="Var. VII Fuga" mm=q=88
+E:  r:16 g2:16-.\mp a2:16-. g2:16-. bb2:16->( a2:16 ab2:16 g2:16) r:16 g2:16-. an2:16-. g2:16-. bb2:16->( a2:16 ab2:16 g2:16)
+R:  R
+L:  <c#2 c#3>:8\mp r:8 r:8 <c#2 c#3>:8 r:4 <c#2 c#3>:8 r:8   #? approximate
+m
+E:  eb3:16->(\< g2:16 c3:16 g2:16) c#3:16->( g2 d#3 g2) e3:16->(\mf g2 d3 g2) f3:16->( g2 e3 g2)   #? subject answer: transposed/varied; pitches approximate
+R:  R
+L:  r:8 <c#2 c#3>:8 r:8 <c#2 c#3>:8 r:8 <c#2 c#3>:16 r:16 <c#2 c#3>:8 r:8   #? approximate
+m
+E:  g3:2\< g3:8(\mf g{bb3:16} a3:8 g3:8) e3:8~   #? rhythm approximate
+R:  R
+L:  r:16 e2:16-.( bb1:16 g1:16 g1:16 ab1:16 g1:16 f#1:16 g1:16 f1:16 g1:16 f#1:16 e1:16-. d1:16 e1:16 d1:16)   #? approximate
+# system 4
+m sys
+E:  e3:16-. e3 e3 e3 c#3:16 d3:8~ d3:8. e3:16\p e3 e3 e3 e3:16 c#3:16   #? approximate
+R:  R
+L:  <c#2 c#3>:8 r:8 r:8 e2:16-. d2 d2 e2 r:8 r:4   #? approximate
+m
+E:  d#3:2~ d3:16\mf e3 e3 e3 e3:16 c#3:16 eb3:8->   #? approximate
+R:  R
+L:  r:16 e2:16 d2 d2 e2:8 r:8 r:8 e2:8 r:4   #? approximate
+m
+E:  c3:8->( a2:16 bb2 a2 bb2 g2 a2 g2 a2 bb2 c3 bb2 c3 bb2 c3)   #? approximate
+R:  R
+L:  r:16 f#2:8-. g2:8-. r:16 g2:16 d2 d2 r:16 r:8 g2:16 d2 s:8   #? approximate
