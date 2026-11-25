@@ -1,0 +1,84 @@
+# ---------------- page 15 (Scherzo cont.) ----------------
+# system 1
+m page
+E:  2:3{ r:8 a2:8(\p_"cantabile" } 2:3{ b2:8 c3:8 }
+R:  a3:8 a3 a3 a3 a3 a3
+L:  R
+m
+E:  f3:2.~)
+R:  a3:8 a3 a3 a3 a3 a3
+L:  r:4. d3:4( f3:8)
+L2: s:4. bb2:4.
+m
+E:  f3:2.~
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <c3 e3>:4. d3:4 f3:8
+L2: s:4. bb2:4.
+m
+E:  f3:2.~
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <c3 e3>:4. <bb2 d3>:4.
+m
+E:  f3:8-. r:8 r:8 d3:8( e3:8 a3:8
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <a1 a2>:8-. r:8 r:8 r:4 r:8
+# system 2
+m sys
+E:  g3:2.~
+R:  a3:8 a3 a3 a3 a3 a3
+L:  r:4. c#3:4( e3:8)
+L2: s:4. a2:4.
+m
+E:  g3:2.~
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <b2 d#3>:4. <a2 c#3>:4.
+m
+E:  g3:8-.) r:8 r:8 a2:8( b2:8 c3:8
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <a1 a2>:8-. r:8 r:8 r:4 r:8
+m
+E:  f3:8 e3:8 a3:8 g3:4.~
+R:  a3:8 a3 a3 a3 a3 a3
+L:  R
+m
+E:  g3:4.) g3:8( f3:8 bb3:8
+R:  a3:8 a3 a3 a3 a3 a3
+L:  d3:4( f3:8) <c3 e3>:8->-. r:8 r:8
+L2: bb2:4. s:4.
+# system 3
+m sys
+E:  a3:2.)
+R:  a3:8 a3 a3 a3 a3 a3
+L:  r:4. e3:4( g3:8)
+L2: s:4. c3:4.
+m
+E:  a3:8(_"cresc. poco a poco" g3:8 c4:8 bb3:8 ab3:8 db4:8
+R:  a3:8_"cresc. poco a poco" a3 a3 <e3@3 g3@3 bb3@3>:8->-. bb3:8 bb3:8   #? LH chord spelling
+L:  <d3 f#3>:8->-. r:8 r:8 s:4.
+m
+E:  bn3:4.~ bn3:8 c4:8 c#4:8
+R:  <en3@3 g#3@3 bn3@3>:8->-. bn3:8 b3:8 b3:8 b3:8 b3:8
+L:  s:4. r:4 r:8
+m
+E:  d4:8 d#4:8 e4:8 f4:8 f#4:8 g4:8)
+R:  b3:8 b3 b3 b3 b3 b3
+L:  R
+# system 4
+m sys
+E:  ab4:2.~
+R:  b3:8 b3 b3 b3 b3 b3
+L:  r:4. f#3:4(\< a3:8)
+L2: s:4. d3:4.
+m
+E:  ab4:2.~
+R:  b3:8 b3 b3 b3 b3 b3
+L:  <e3 g#3>:4. f#3:4 a3:8
+L2: s:4. d3:4.
+m
+E:  ab4:2.\!
+R:  b3:8 b3 b3 b3 b3 b3 \clef"treble"
+L:  <e3 g#3>:4. <d3 f#3>:4.\!
+m
+E:  ab4:8-. r:8 r:8 ab4:4(\ff an4:8@cacc
+R:  5:6{ b3:16(\f cn4 d4 e4 f4) } r:4 r:8
+L:  <a#2 f#3 g#3>:8->-. r:8 r:8 \clef"treble" <c#4 g#4>:4.->~   #? first chord
