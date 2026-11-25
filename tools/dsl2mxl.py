@@ -89,7 +89,7 @@ TOK = re.compile(r'''
  | (?P<note>(?P<step>[a-g])(?P<acc>\#\#|bb|\#|b|n|\+|-(?=\d))?(?P<oct>\d))
  | (?P<rest>[rsR](?![a-z]))
  | (?P<dur>:(?P<db>\d+|B)(?P<dots>\.*))
- | (?P<flag>@[A-Za-z0-9\-]+)
+ | (?P<flag>@[A-Za-z0-9]+(?:-[A-Za-z]+)*)
  | (?P<tie>~)
  | (?P<slur>[()\[\]])
  | (?P<artic>-[>.\-^!_+o|])

@@ -1,0 +1,78 @@
+# ---------------- page 16 (Scherzo cont.) ----------------
+# Cross-staff groups: LH chords beamed into RH notes are written in voice R with @3 (bottom staff).
+# system 1
+m page
+E:  an4:4.( ab4:4.
+R:  r:4 r:8 4:6{ <g#4@3 c#5@3>:16->-. cn5( b4 a4 }
+L:  <c#4 g#4>:4. s:4.
+m
+E:  f4:4 ab4:8 gn4:4.
+R:  4:6{ gn4:16 a4 b4 cn5) } r:4 r:8
+L:  <c#4 g#4>:8->-. r:8 r:8 <g#4 c#5>:4.->~
+m
+E:  f4:4.)\>\! d4:4(\mf f4:8
+R:  r:4 r:8 5:6{ <c#4@3 g#4@3>:16->-.\mf gn4( f4 e4 d4) }
+L:  <g#4 c#5>:4. s:4. \clef"bass"
+m
+E:  e4:4. d4:4 f4:8
+R:  \clef"bass" 5:6{ <g#3@3 c#4@3>:16->-. cn4( b3 a3 gn3) } 5:6{ <c#3@3 g#3@3>:16->-. a3( b3 cn4 d4) } \clef"treble"
+L:  s:2. \clef"treble"
+# system 2
+m sys
+E:  e4:4. d4:4.)
+R:  5:6{ <g#3@3 c#4@3>:16->-. e4( f4 gn4 a4) } 5:6{ c#4:16@3->-. f4( gn4 a4 b4) }
+L:  R
+m
+E:  bb3:2.~(_"dim."
+R:  <f4@3 bb4@3>:8-. a4:8(_"dim." d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  5:6{ bb3:8 a3 ab3 g3 gb3 }
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  f3:2.~\>
+R:  <f4@3 bb4@3>:8-.\> a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+# system 3
+m sys
+E:  f3:2.)\!
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)\!
+L:  R
+m
+E:  R
+R:  <f4@3 bb4@3>:8-.\pp a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  gb3:2.~(\p
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  gb3:2.
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  f3:2.)\>
+R:  <f4@3 bb4@3>:8-.\> a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+# system 4
+m sys
+E:  bb3:2.~(\!
+R:  <en4@3 bb4@3>:8-. bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)\!
+L:  R
+m
+E:  bb3:2.\>
+R:  <en4@3@acc bb4@3>:8-.\> bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)
+L:  R
+m
+E:  ab3:2.~\!
+R:  <en4@3@acc bb4@3>:8-. bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)\!
+L:  R
+m
+E:  ab3:2.)
+R:  <en4@3@acc bb4@3>:8-. bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)
+L:  R
+m
+E:  R
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
