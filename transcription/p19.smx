@@ -1,0 +1,87 @@
+# ---------------- page 19 ----------------
+# system 1
+m page mm=h.=80 tempo="a little slower"
+E:  r:4 r:8 db3:4.(\p
+R:  c#3:8-.\p r:8 r:8 r:4 r:8
+L:  <c#2 g#2>:8-. r:8 r:8 r:4 r:8
+m bar=double
+E:  eb3:4. f3:4.
+R:  R
+L:  R
+m mm=h.=96 tempo="a tempo"
+E:  bb3:2.~
+R:  r:4 r:8 4:6{ <c#3@3 g#3@3>:16-.\p a3( bn3 cn4) }
+L:  r:4 r:8 s:4.
+m
+E:  bb3:2.~
+R:  4:6{ <g#3@3 c#4@3>:16-. cn4( b3 a3) } 4:6{ <c#3@3 g#3@3>:16-. a3( b3 cn4) }
+L:  s:2.
+m bar=double
+E:  bb3:2.~^"rit."
+R:  4:6{ <g#3@3 c#4@3>:16-.^"rit." c#4( cn4 bb3) } r:4 r:8
+L:  s:4. <g#3 c#4>:4.~
+m mm=h.=80
+E:  bb3:2.)\breath
+R:  R
+L:  <g#3 c#4>:2.~
+m bar=double
+E:  g3:4(^"(3)" ab3:4 db4:4)
+R:  R
+L:  <g#3 c#4>:2.~
+# system 2
+m sys mm=h.=96
+E:  bn3:2.~(@cacc
+R:  r:4 r:8 \clef"treble" 4:6{ <gn3@3 d4@3>:16-. eb4( f4 f#4) }
+L:  <g#3 c#4>:4. s:4.
+m
+E:  b3:2.~
+R:  4:6{ <d4@3 g4@3>:16-. f#4( fn4 eb4) } 4:6{ <g3@3 d4@3>:16-. eb4( f4 f#4) }
+L:  s:2.
+m bar=double
+E:  b3:2.^"rit."
+R:  4:6{ <d4@3 g4@3>:16-.^"rit." f#4( fn4 eb4) } r:4 r:8
+L:  s:4. <g3 d4>:4.~
+m mm=h.=80
+E:  b3:4\fermata\breath g3:4(^"(3)" a3:4
+R:  R
+L:  <g3 d4>:2.~
+m bar=double
+E:  b3:4^"(3)" d#4:4 c#4:4)
+R:  R
+L:  <g3 d4>:2.~
+# system 3
+m sys mm=h.=96
+E:  f4:2.~(
+R:  r:4 r:8 <g5 b5>:4( d6:8)
+L:  <g3 d4>:4. \clef"treble" <g4 b4>:4(_"(p)" d5:8)
+m
+E:  f4:2.~
+R:  <a5 c#6>:4. <ab5 cn6>:4.
+L:  <a4 c#5>:4. <ab4 cn5>:4.
+m
+E:  f4:4.) f3:4.(\pp_"(echo)"
+R:  <bb5 f6>:8-. r:8 r:8 r:4 r:8
+L:  <bb4 d5>:8-. r:8 r:8 r:4 r:8
+m
+E:  f4:2.~^"rit."
+R:  r:4 r:8 \clef"bass" <f3 a3>:4(^"rit." c4:8)
+L:  r:4 r:8 \clef"bass" <f2 a2>:4( c3:8)
+m
+E:  f4:2.~
+R:  <g3 b3>:4. g#3:4( bb3:8)
+R2: s:4. e3:4.
+L:  <g2 b2>:4. g#2:4( bb2:8)
+L2: s:4. e2:4.
+m bar=double
+E:  f4:2.~
+R:  <f3 a3>:4. <d3 f#3>:4.
+L:  <f2 a2>:4. <d2 f#2>:4.
+# system 4: senza misura (X/4).  Feathered (accelerating) beams written as plain 16ths/13-tuplets.
+m sys time=6/4 ts=hide text="senza misura"
+E:  f4:4)\> r:4\fermata\! r:8\fermata f4:16(\p\<#"0" f4#"1"#"3" f4#"0" f4#"1"#"3" f4 f4 f4:4\fermata\trem3\mf f4:32->( d4:32 e4:8.\fermata)
+R:  R
+L:  13:8{ bb1:16(\ped\p f2 bb2 d3@1 e3@1 bb3@1 <a3 d4> bn3@1 e3@1 d3@1 bb2 f2 bb1) } s:1\unped
+m time=6/4 ts=hide
+E:  e4:2\> r:8\fermata\! e4:16(\p\<#"2" e4#"3" e4#"2"^"simile" e4 e4 e4 e4:4\fermata\trem3\mf e4:32->( c4:32 d4:8.)
+R:  R
+L:  13:8{ ab1:16(\ped ab2 c3@1 e3@1 f#3@1 c4@1 <bb3 en4> c4@1 f3@1 e3@1 c3@1 ab2 ab1) } s:1\unped
