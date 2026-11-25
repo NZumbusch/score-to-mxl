@@ -1,0 +1,75 @@
+# ---------------- page 18 (Scherzo end) ----------------
+# system 1
+m page
+E:  bb4:2.->~(\<
+R:  <db4@3 ab4@3>:8-.\< b4:8( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)
+L:  R
+m
+E:  bb4:4.)\! r:4 r:8
+R:  bb3:8@3-. bn4:8@acc( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)\!
+L:  R
+m
+E:  bb4:8->\ff( bb4 bb4 bb4 bb4 bb4
+R:  <bn4 f5>:8->-.\ff r:8 r:8 r:4 r:8
+L:  <g3 d4>:8->-. r:8 r:8 r:4 r:8   #? chord
+m
+E:  bb4:8 bb4 bb4 bb4 bb4 bb4
+R:  R
+L:  R
+# system 2
+m sys
+E:  bb4:8) r:8 r:8 r:4 r:8
+R:  bb4:8->\ff( bb4 bb4 bb4 bb4 bb4
+L:  r:4. d4:4( f4:8)
+L2: s:4. bb3:4.
+m
+E:  R
+R:  bb4:8 bb4 bb4 bb4 bb4 bb4
+L:  <c4 e4>:4. <bb3 d4>:4.
+m
+E:  db4:8->(\f#"2"^"(alternate fingerings 2/3 simile, or switch bells)" db4#"3" db4#"2" db4#"3" db4 db4
+R:  bb4:8) r:8 r:8 r:4 r:8
+L:  <gb3 db4>:8->-. r:8 r:8 r:4 r:8   #? chord
+m
+E:  db4:8 db4 db4 db4 db4 db4
+R:  R
+L:  r:4. \clef"bass" db3:4(\f ab3:8)
+L2: s:4. bb2:4.
+# system 3
+m sys
+E:  db4:8) r:8 r:8 r:4 r:8
+R:  db4:8->\ff( db4 db4 db4 db4 db4
+L:  <eb3 g3>:4. f3:4 ab3:8
+L2: s:4. db3:4.
+m
+E:  R
+R:  db4:8 db4 db4 db4 db4 db4
+L:  <eb3 g3>:4. <db3 f3>:4.
+m
+E:  db4:8->(\f\> c4:8 cb4:8 bb3:8 a3:8 ab3:8
+R:  db4:8) r:8 r:8 r:4 r:8 \clef"bass"
+L:  <a2 cn3>:8-. r:8 r:8 r:4 r:8
+m
+E:  g3:8-.)\mf r:8 r:8 r:4 r:8
+R:  g3:8->\mf( g3 g3 g3 g3 g3
+L:  r:4. d3:4( f3:8)
+L2: s:4. bb2:4.
+# system 4
+m sys
+E:  g3:8(\mf\> gb3:8 f3:8 e3:8 eb3:8 d3:8
+R:  g3:8-.) r:8 r:8 r:4 r:8
+L:  <c3 e3>:8-. r:8 r:8 r:4 r:8
+m
+E:  c#3:8-.)\mp r:8 r:8 r:4 r:8
+R:  c#3:8( c#3 c#3 c#3 c#3 c#3
+L:  r:4. g#2:4( b2:8)
+L2: s:4. e2:4.
+m
+E:  R
+R:  c#3:8 c#3 c#3 c#3 c#3 c#3
+L:  <f#2 a#2>:4._"dim." an2:4 c3:8
+L2: s:4. fn2:4.
+m bar=double
+E:  R^"rit."
+R:  c#3:2.)\fermata^"rit."_"(Left hand ritard; Right hand continues eighths in preceding durations)"
+L:  <g2 b2>:4.--\> <f2 a2>:4.--\!
