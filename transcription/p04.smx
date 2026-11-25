@@ -1,0 +1,62 @@
+# ---------------- page 4: Var. I Capriccio ----------------
+# Audiveris draft corrected against scan.  The 1/8 pickup completes the 7/8 bar before the double bar.
+m page time=1/8 ts=hide reh="Var. I Capriccio"
+E:  r:8
+R:  \clef"treble" e4:8-.\p
+L:  r:8
+m time=4/4 mm=q=96
+E:  R
+R:  g{g4:8} <d4 f4>:8( e4:4) e4:8-. g{e4:8} c#4:8( d#4:4) e4:8-.
+L:  <g#3 c#4>:4( c#3:8-.) r:8 <gn3 cn4>:4( c#3:8-.) r:8
+m
+E:  R
+R:  g{g4:8} <d4 fn4>:8->(\< e4:8) g{d5:8} <f4 a4>:8->( g4:8)\! g{e5:8} g#4:16->\f( f#4 d#4 f#4 g#4 f#4 g#4 c#5
+Ed: s:2 \mm"q=132" s:2
+L:  <f#3 bn3>:8-> c#3:8-. <fn3 bb3>:8-> c#3:8-. <e3 an3>:8->-.\f c#4:8-. a3:8-. e3:8-.
+m
+E:  r:2 r:8.. c#3:32->\f^"rit." c#3:4\fermata~
+R:  d#5:16(\>^"rit." c#5 d#5 f#5 g#5 f#5 g#5 c#6)\! <e5 a5 cn6 eb6>:2\fermata~\p
+L:  c#3:8-. e3:8-. c#3:8-. a2:8-. <f#2 c#3 a#3>:2\fermata~
+m sys mm=q=132
+E:  c#3:8 r:16 d#3:16\p d#3:8 r:16 e3:16^"rit." e3:8 r:16 a3:16 a3:8 r:16 f#3:16
+R:  <e5 a5 c6 eb6>:1~^"rit."
+L:  <f#2 c#3 a#3>:1~
+m mm=q=72
+E:  3:2{ f#3:8( g3 c4 } bb3:2\trl~ bb3:8.\trx-- a3:32 g3)\>
+R:  <e5 a5 c6 eb6>:1
+L:  <f#2 c#3 a#3>:1
+m
+E:  f#3:8-.\! r:8 r:4 r:2
+R:  r:2 r:4 r:8 e5:8-.\p
+L:  R
+m mm=q=96 tempo="accel."
+E:  R
+R:  g{g5:8} <d5 f#5>:8( e5:4) e5:8-. g{e5:8} c#5:8( d#5:4) d5:8-.
+L:  \clef"treble" <g4 c5>:4( c4:8-.) r:8 <fn4 bb4>:4( bb3:8-.) r:8
+# system 3
+m sys
+E:  R
+R:  g{f#5:8} <b4 d#5>:8->(\< b4:8) g{a5:8} <b4 dn5>:8->( cn5:8)\! g{g#5:8} d#5:16->(\f c#5 a#4 g#4 e4 c#4 e4 g#4
+Ed: s:2 \mm"q=132" s:2
+L:  <d4 g4>:8->( g3:8) \clef"bass" <bb3 gb4>:8->( eb3:8) <c#3 g#3 en4>:8->-.\arp c#3:8-. g3:8-. bn3:8-.
+m
+E:  R
+R:  a#4:16 g#4 a#4 c#5 d#5 c#5 d#5 f#5\< g#5^"rit." f#5 g#5 a#5 c#6 a#5 c#6 d#6)\!
+L:  g#3:8-. e3:8-. c#3:8-. e3:8-. c#3:8-. a#2:8-. g#2:8-. a#2:8-.
+m time=2/4
+E:  r:8.. a4:32->\f a4:4\fermata~
+R:  <dn5 a5 d6 f#6 g6>:2\fermata~
+L:  <g2 cn3 bb3>:2\fermata~\p
+# system 4
+m sys time=4/4 mm=q=132
+E:  a4:8 r:16 g4:16\p g4:8 r:16 f#4:16^"rit." f#4:8 r:16 c#4:16 c#4:8 r:16 e4:16
+R:  <d5 a5 d6 f6 g6>:1~^"rit."
+L:  <g2 c3 bb3>:1~
+m mm=q=72
+E:  3:2{ e4:8( d4 a3 } bb3:2\trl~ bb3:32\trx a3 bb3 c4 db4 c4 db4 c4
+R:  <d5 a5 d6 f6 g6>:1
+L:  <g2 c3 bb3>:1
+m
+E:  bb3:32^"rit." a3 bb3 c4\> db4:8-.)\! r:4 r:2
+R:  r:2 r:4 r:8 e4:8-.\p
+L:  R
