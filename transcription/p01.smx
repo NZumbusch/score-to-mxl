@@ -1,0 +1,38 @@
+# ---------------- page 1 ----------------
+# system 1
+m pickup time=4/4 reh="Tema" tempo="Risoluto" mm=q=66
+E:  g2:8->\fp\<(
+R:  g2:8\f
+R2: 5:4{ g2:32\ped( <c#2@3 f#2> <b1@3 e2@3> d#2@3 c#2@3) }
+m
+E:  g2:4.) a2:8\f b2-- e3-- 3:2{ c#3( d3) g3 }
+R:  g2:32( b2 c#3 g3 <e3@3 a3@3> g3 c#3 b2 g2:2.\tremS3 b2:2.\tremE3)
+L:  g1:2->\unped\ped g1:8-> a1-> b1-> e2->
+m
+E:  6:4{ f3:16( db3 eb3 f3 a3 g3) } b3:2.->(
+R:  g2:32( b2 c#3 f3 \clef"treble" g3\< b3 c#4 f4\! <g4 b4 c#5 f5>:8->) r:8 <b4 a5>:32( <c#5 f5>:8..~ <c#5 f5>:8) <d5 gn5>:8--~
+L:  10:8{ c#2:32( d2 f2 g2 b2 c#3 d3 f3 g3 b3 } <d4 f4>:8->)\unped r:8 \clef"treble" <d4 g4>:32 <f4 a4>:8..~ <f4 a4>:8 <e4 g#4>:8--~
+# system 2
+m sys
+E:  b3:8)\breath b3(\mp g{d4:16} c4:8 b3 g{d4:16} c4:8 b3) ab3:4#"1"(
+R:  <d5 g5>:2. r:16 gn5:32( d5 g4) g4\<( d4 g3)\!
+L:  <e4 g#4>:2. r:16 \clef"bass" g#4:32\ped( e4 b3 g#3 e3 b2)\unped
+m
+E:  3:2{ ab3:8\< ab3#"1"#"2"#"3" ab3#"1" } 5:4{ ab3:16#"1"#"2"#"3"^"simile" ab3#"1" ab3 ab3 ab3) } ab3:32->#"1"(\f\> f3 gb3:8.~^"rit." gb3:32 eb3 en3:8.\fermata~)\!
+R:  \clef"bass" d3:1->\fermata\f^"rit."
+L:  <bb1 bb2>:1->\fermata~
+m tempo="a little slower" mm=q=60
+E:  e3:4. e3:8(\mp g{f3:16 g#3} 3:2{ g3:8-. f#3-. fn3-.) } e3:8( f#3
+R:  \clef"treble" a4:32(\p c#5 d5 a5 <a3@3 d4@3> a5 d5 c#5 3:2{ a4:16 c#5 a4:8~ <a4 c#5>:8~ } <a4 c#5>:2)
+L:  <bb1 bb2>:2.\ped~ 3:2{ <bb1 bb2>:8\< <bb1 bb2> <bb1 bb2>\!\unped }
+# system 3 (piano on 3 staves)
+m sys
+E:  eb3:4.) e3:8( g{en3:16 bb3} 3:2{ gb3:8 eb3 f3 } c4:8( bb3)\<
+R:  \clef"bass" r:8 db3:32\mp( f3 g3 db4 <bb3@2 eb4@2> db4 g3 f3 3:2{ db3:16 f3 db3~ } <db3 f3>:2)
+M:  s:1
+L:  <bb1 bb2>:2.\ped\mp 3:2{ <bb1 bb2>:8\< <bb1 bb2> <bb1 bb2> }
+m
+E:  c#4:2\mf_"accel. e cresc."~( c#4:8^"a tempo" c#4\f) g{b3:16 c#4} 3:2{ e4:16-. d#4-. dn4-. } d4:16-. c#4--
+R:  dn3:32\mf_"accel. e cresc."( f#3 g#3 d4 <bn3@2 en4@2> d4 g#3 f#3) 9:8{ e3( f#3 g#3 e4 <c#4@2 f#4@2> \clef"treble" e4 f#4 g#4 e5) } <c#5 f#5>:32->(^"a tempo" <cn5 e5>:8..~ <c5 e5>:8) <c#5 g#5>:8--  #? last chord spelling
+M:  s:2 \clef"treble" <f4 a4>:32-> <fn4 a#4>:8..~ <f4 a#4>:8 <f#4 a#4>:8--  #? middle-staff chords uncertain
+L:  <bb1 bb2>:8.\unped\ped\mf_"accel. e cresc." <bb1 bb2>:16 <bb1 bb2>:4\unped\ped r:2\unped

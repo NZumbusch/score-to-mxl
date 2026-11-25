@@ -1,0 +1,9 @@
+# Concert Variations for Euphonium and Piano -- Jan Bach (1977)
+# Transcribed from scanned score (Tubists Universal Brotherhood Association edition)
+@title Concert Variations
+@composer Jan Bach
+@part E "Euphonium" staves=1 clefs=bass sound=brass.euphonium program=59 abbr=Euph.
+@part P "Piano" staves=3 clefs=bass,bass,bass sound=keyboard.piano program=1 abbr=Pno.
+# Piano uses 3 staves: 1=top (R), 2=extra middle staff (M, only used where the original has 3 piano staves), 3=bottom (L)
+# In Dorico: Layout Options > Staves > "Hide empty staves" so 2-stave systems look like the original.
+@voices E=E1:1 E2=E1:2 R=P1:1 R2=P1:2 R3=P1:3 M=P2:1 M2=P2:2 L=P3:1 L2=P3:2 L3=P3:3
