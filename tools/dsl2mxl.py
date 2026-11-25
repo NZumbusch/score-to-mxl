@@ -123,6 +123,11 @@ def apply_flag(flags, f):
         flags['hide'] = True
     elif f == 'small':
         flags['small'] = True
+    elif f == 'cacc':
+        flags['cacc'] = True  # cautionary accidental in parentheses
+        flags['showacc'] = True
+    elif f == 'na':
+        flags['noacc'] = True  # pitch altered but no accidental printed (carried from earlier in bar)
     elif f == 'acc':
         flags['showacc'] = True  # cautionary/explicit accidental even if none written
     else:
@@ -680,10 +685,10 @@ class Writer:
                 n.append(f'<voice>{vnum}</voice>')
                 if ev.kind != 'mrest':
                     n.append(f'<type>{TYPES[ev.dur_base]}</type>' + '<dot/>' * ev.dots)
-                if pt is not None and (pt.acc or pt.flags.get('showacc')):
+                if pt is not None and (pt.acc or pt.flags.get('showacc')) and not pt.flags.get('noacc'):
                     an = ACC_NAME.get(pt.acc, 'natural') if pt.acc not in ('+', '-') else \
                         ('quarter-sharp' if pt.acc == '+' else 'quarter-flat')
-                    par = ' parentheses="yes"' if pt.flags.get('paren') and False else ''
+                    par = ' parentheses="yes"' if pt.flags.get('cacc') else ''
                     n.append(f'<accidental{par}>{an}</accidental>')
                 if (ev.tuplets or getattr(ev, 'trem_half', False)) and not ev.grace:
                     a_, nn = (2, 1) if getattr(ev, 'trem_half', False) else (1, 1)

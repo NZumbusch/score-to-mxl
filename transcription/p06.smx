@@ -1,0 +1,63 @@
+# ---------------- page 6 ----------------
+# system 1
+m page tempo="accel."
+E:  R
+R:  g{bb4:8} <db4 f4>:8( eb4:4) eb4:8-. g{e4:8} c4:8( c#4:4) en4:8-.
+L:  <gb3 cb4>:4( ab2:8-.) r:8 <en3 a3>:4( a2:8-.) r:8
+m mm=q=132
+E:  R
+R:  g{f4:8} <a3 c#4 d4>:8->(\< b3:8) g{f4:8} <c#4 f4@na>:8->( c4:8) g{g4:8} <cn4 e4 f#4>:16->(\f e4 c4 e4 f4 e4 f4 a4
+L:  <d3 g3>:8->( g2:8) <c#3 a3>:8->( f#2:8) <e2 cn3 g3>:8->-.\f e3:8-. g3:8-. c4:8-.
+m
+E:  R
+R:  b4:16 a4 b4 d5 e5 d5 e5 g5 a5\>^"rit." g5 e5 c5 d5 a4 g4 e4)\!
+L:  g3:8-. e3:8-. c3:8-. g2:8-. e2:8-. g2:8-. c3:8-. d3:8-.
+# system 2
+m sys
+E:  r:8.. bb3:32\p bb3:4\fermata~ bb3:8 r:16 a3:16 a3:8 r:16 g3:16
+Ed: s:2 \mm"q=116" s:2
+R:  <d4 g4>:1~\p\fermata
+L:  <e3 bb3>:1~\fermata
+m
+E:  g3:8 r:16 f#3:16 f#3:8 r:16 e3:16 3:2{ e3:8( d#3 e3 } f#3:4)
+R:  <d4 g4>:1~
+L:  <e3 bb3>:1~
+m
+E:  f#3:8( 3:2{ e3:16 fn3 f#3 } 3:2{ g3:8-.) f#3-. fn3-. } e3:2\trl~
+R:  <d4 g4>:1~
+L:  <e3 bb3>:1~
+# system 3
+m sys
+E:  e3:16\trx(_"(as rapidly as possible)" d3 c#3 d#3 cn3 bb2 c#3 bn2 dn3 cn3 bb2 c#3 bn2 g2 bb2^"rit." ab2
+R:  <d4 g4>:8 r:8 r:4 r:2^"rit."
+L:  <e3 b3>:8 r:8 r:4 r:2
+m mm=q=96
+E:  f#2:1~^"rit."
+R:  r:4 <d4 g4>:4\p( <c#4 g#4>:4 <c4 b4>:4
+L:  r:4 <e3 bb3>:4( <eb3 a3>:4 <d3 ab3>:4
+m mm=q=72
+E:  f#2:2.) r:8 f#2:8-._"(p)"
+R:  <d#4 e4>:1)
+L:  <d3 an3>:1)
+m
+E:  g{c3:8} f#2:8( g{a2:8} f#2:4) f2:8( g{ab2:8} f2:8 g2:4) f2:8-._"(no cresc.)"
+R:  r:8 <c#4 d#4 g#4>:8-.(_"(p) (no cresc.)" g{bb4:8} <e4 a4>:8 <e4 g4>:8~ <e4 g4>:8) <d4 f4 bb4>:8-.( g{f5:8} <d4 bb4>:8 <e4 g4>:8~
+L:  r:8 <d#3 a#3>:8-.( <cn3 a3>:8 <d#3 a#3>:8~ <d3 a3>:8) <d3 bb3>:8-.( <en3 cn4>:8 <e3 bb3>:8~
+# system 4
+m sys bar=double
+E:  g{c3:8} bb2:8( a2:8~ a2:4~ a2:8 a2:8^"rit." g{f3:8} eb3:8 db3:8)
+R:  <e4 g4>:8( <en4 gn4>:8-.) g{bb4:8} <f#4 c5>:8( <e4 g4>:8) g{db5:8} <ab4 db5>:8^"rit." <en4 gn4>:4 g{b4:8} <e4 g4>:8
+L:  <e3 bb3>:8( <e3 c#4>:8-.) <e3 cn4>:8( <e3 c#4>:8) <f3 dn4>:16 g3:16 <a3 c#4>:4 <a3 c#4>:8
+# ---- Var. II Siciliano (9/8, dotted quarter = 56) ----
+m time=9/8 reh="Var. II Siciliano" mm=q.=56
+E:  c3:2.\> r:4.\!
+R:  eb5:4. <e3 bb3 eb4>:4. gb5:8@cacc( fb5:4)
+R2: eb5:8.. \clef"bass" en3:32( <e3 bb3 eb4>:8) s:4. \clef"treble" db5:4.
+L:  <cn2 cn3>:4.\ped_"(p)" \clef"treble" bb4:4( ab4:8) <eb4 g4>:4.\unped
+L2: s:4. en4:4. s:4 \clef"bass" c2:32\ped( db2:16.)\unped
+m
+E:  R
+R:  eb5:4. <gn3@cacc db4 gb4>:4. \clef"bass" c4:8( db4:4)
+R2: eb5:8.. gn3:32( <g3 db4 gb4>:8) s:4. g3:4.
+L:  eb2:4.\ped \clef"treble" gn4:4( a4:8 <en4 bb4>:4.)\unped
+L2: s:4. eb4:4. s:4 \clef"bass" c2:32\ped( bb1:16.)\unped
