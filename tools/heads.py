@@ -196,3 +196,27 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def dump(page, staff_idx, clef, x0, x1):
+    """Print detected heads (x, y, pitch) for one staff in a page-x range. Handy for clusters."""
+    arr = np.array(Image.open(page).convert('L'))
+    st = find_staves(arr)
+    sp = float(np.median([s[2] for s in st]))
+    t, b, _ = st[staff_idx - 1]
+    spc = (b - t) / 4
+    top = max(0, int(t - 7 * sp)); bot = int(b + 7 * sp)
+    out = []
+    for cx, cy, w, h, kind in detect(arr[top:bot, x0:x1], sp):
+        y = cy + top
+        if kind == 'stack':
+            continue
+        k = int(round((b - y) / (spc / 2)))
+        d = BASE[clef] + k
+        out.append((int(cx + x0), round(y), NAMES[d % 7] + str(d // 7), kind))
+    for o in sorted(out):
+        print(*o)
+
+
+if __name__ == '__main__' and False:
+    pass
