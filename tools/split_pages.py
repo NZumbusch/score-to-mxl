@@ -43,7 +43,7 @@ def find_staves_strip(arr, xa, xb):
     # use a strip near the left edge of the systems: robust against page curvature / skew
     dark = arr[:, xa:xb] < 128
     prof = dark.sum(1)
-    rows = np.where(prof > 0.5 * prof.max())[0]
+    rows = np.where(prof > 0.45 * dark.shape[1])[0]
     # merge adjacent rows into lines
     lines = []
     for r in rows:
@@ -59,20 +59,25 @@ def find_staves_strip(arr, xa, xb):
     staves = []
     used = set()
     for i, y0 in enumerate(lines):
-        if i in used:
+        if False:
             continue
         picked = [i]
+        d = None
         for k in range(1, 5):
-            target = y0 + k * d0
-            best = min(range(len(lines)), key=lambda j: abs(lines[j] - target))
-            if abs(lines[best] - target) <= 0.2 * d0:
-                picked.append(best)
-            else:
+            prev = lines[picked[-1]]
+            nxt = [j for j in range(len(lines)) if 0.8 * d0 <= lines[j] - prev <= 1.25 * d0]
+            if d is not None:
+                nxt = [j for j in nxt if abs(lines[j] - prev - d) <= 0.15 * d0]
+            if not nxt:
                 break
+            j = min(nxt, key=lambda j: abs(lines[j] - prev - (d or d0)))
+            if d is None:
+                d = lines[j] - prev
+            picked.append(j)
         if len(picked) == 5:
             ys = [lines[j] for j in picked]
             staves.append((ys[0], ys[-1], float(np.mean(np.diff(ys)))))
-            used.update(range(i, picked[-1] + 1))
+            pass
     return staves
 
 
@@ -82,11 +87,21 @@ def find_staves(arr):
     colsum = (arr < 128).sum(0)
     xs = np.where(colsum > 0.05 * h)[0]
     x0 = int(xs[0]) if len(xs) else 0
-    found = []
+    cands = []
     for xa in (x0 + 60, int(w * 0.3), int(w * 0.5), int(w * 0.7)):
-        for stf in find_staves_strip(arr, xa, xa + w // 6):
-            if all(abs(stf[0] - f[0]) > 30 for f in found):
-                found.append(stf)
+        cands.extend(find_staves_strip(arr, xa, xa + w // 6))
+    dark = arr < 128
+    xs0 = x0 + 40
+    def score(stf):
+        t, b, d = stf
+        ys = [int(round(t + k * (b - t) / 4)) for k in range(5)]
+        return sum(dark[y - 1:y + 2, xs0:w - 40].any(0).mean() for y in ys)
+    # among overlapping candidates keep the one whose 5 lines are darkest across the page width
+    cands.sort(key=lambda c: -score(c))
+    found = []
+    for c in cands:
+        if all(abs(c[0] - f[0]) > 3 * c[2] for f in found) and score(c) > 2.5:
+            found.append(c)
     return sorted(found)
 
 
