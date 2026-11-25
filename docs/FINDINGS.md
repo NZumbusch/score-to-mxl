@@ -43,3 +43,14 @@ landscape pages rotated 90°, ~300 dpi).
 
 - GitHub release downloads are blocked by the session proxy; cloning works.
 - Hosts needed for the Audiveris build: github.com, Maven Central, repository.jboss.org.
+
+## Musical reasoning as a check (very effective)
+
+- Repeating accompaniment patterns (e.g. the Siciliano piano figure: dotted-8th.. + 32nd + 8th
+  chord | dotted-quarter chord) give the rhythm of dense bars; copy the pattern from a clean bar
+  and only change pitches, then verify against the scan.
+- The converter's per-voice bar-length check catches misread dots/flags/tuplets immediately.
+- Harmony/voice leading helps resolve ambiguous accidentals (e.g. chord spelling consistent
+  with the surrounding bars), but always confirm against the zoomed scan.
+- Audiveris drafts are good for pitches of simple lines; their voice/rhythm assignment in
+  dense piano writing is often wrong.

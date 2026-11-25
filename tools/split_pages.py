@@ -100,7 +100,7 @@ def find_staves(arr):
     cands.sort(key=lambda c: -score(c))
     found = []
     for c in cands:
-        if all(abs(c[0] - f[0]) > 3 * c[2] for f in found) and score(c) > 2.5:
+        if all(abs(c[0] - f[0]) > 6 * c[2] for f in found) and score(c) > 2.5:
             found.append(c)
     return sorted(found)
 
