@@ -1,0 +1,85 @@
+# ---------------- page 14 (Scherzo cont.) ----------------
+# "4" groups of 16ths fill a dotted quarter -> encoded 4:6 (4 sixteenths in the time of 6).
+# system 1
+m page
+E:  c3:2.~(
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  r:4. c3:4( eb3:8)
+L2: s:4. ab2:4.
+m
+E:  c3:2.~
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <bb2 d3>:4. c3:4\< en3:8\!
+L2: s:4. ab2:4.
+m
+E:  c3:4.~ c3:8 db3:8 eb3:8
+R:  eb3:8 eb3 eb3 eb3 eb3 eb3
+L:  <bn2 d#3>:4.\> <an2 c#3>:4.\!
+m
+E:  f3:8-.) r:8 r:8 r:4 r:8
+R:  f3:8 f3 f3 f3 f3 f3
+L:  <f2 cn3>:8->-. r:8 r:8 r:4 r:8
+m
+E:  r:4 r:8 f3:8(_"cresc." f#3:8 g3:8
+R:  f3:8_"cresc." f3 f3 f3 f3 f3
+L:  R
+# system 2
+m sys
+E:  ab3:8-.)_"poco a poco" r:8 r:8 ab3:8( bb3:8 c4:8
+R:  ab3:8_"poco a poco" ab3 ab3 ab3 ab3 ab3 \clef"treble"
+L:  2:3{ f3:8-. f3:8-. } 2:3{ f3:8-. f3:8-. }
+m
+E:  db4:8-.) r:8 r:8 r:4 r:8
+R:  db4:8 db4 db4 db4 db4 db4
+L:  2:3{ <f3 ab3>:8-. <f3 ab3>:8-. } 2:3{ <f3 ab3>:8-. <f3 ab3>:8-. }
+m
+E:  r:4 r:8 db4:8(\< eb4:8 f4:8\!
+R:  db4:8 db4 db4 db4 db4 db4
+L:  2:3{ <f3 ab3>:8-. <f3 ab3>:8-. } 2:3{ <f3 ab3>:8-. <f3 ab3>:8-. }
+m
+E:  g4:8-.) r:8 r:8 r:4 r:8
+R:  g4:8\< g4 g4 g4 g4 g4\!
+L:  2:3{ <f3 ab3 db4>:8-. <f3 ab3 db4>:8-. } 2:3{ <f3 ab3 db4>:8-. <f3 ab3 db4>:8-. }
+m
+E:  r:4 r:8 gn4:4(\f ab4:8
+R:  4:6{ gn4:16(\f a4 b4 c5 } r:4 r:8
+L:  <c#3 g#3 en4>:8->-.\f r:8 r:8 \clef"treble" <g#4 c#5>:4.->~
+# system 3
+m sys
+E:  ab4:4. g4:4.
+R:  r:4 r:8 4:6{ <e4@3 g#4@3>:16-> cn5( b4 a4 }
+L:  <g#4 c#5>:4. s:4.
+m
+E:  e4:4(_"dim. poco a poco" g4:8 f#4:4.
+R:  4:6{ g4:16 a4 b4 cn5) } r:4 r:8
+L:  <c#4 g#4>:8->-._"dim. poco a poco" r:8 r:8 <g#4 c#5>:4.->~
+m
+E:  e4:4. c#4:4 e4:8
+R:  r:4 r:8 4:6{ gn4:16(\f a4 b4 c5 }
+L:  <g#4 c#5>:4. <e4 g#4>:8-. r:8 r:8
+m
+E:  d#4:4.\> c#4:4.
+R:  4:6{ <e4@3 g#4@3>:16-> cn5 b4 a4) } gn4:8 r:8 r:8
+L:  s:4. <e4 g#4>:8-. r:8 r:8
+m
+E:  bb3:4 db4:8 cn4:4.\!
+R:  4:6{ gn4:16->(\> f4 e4 d4 } \clef"bass" 4:6{ cn4:16 b3 a3 g3)\! }
+L:  <c#4 g#4>:8->-. r:8 r:8 \clef"bass" <g#3 c#4>:8-. r:8 r:8
+# system 4
+m sys
+E:  a3:8-.)\p r:8 r:8 r:4 r:8
+R:  a3:8\p a3 a3 a3 a3 a3
+L:  <a1 a2>:8-. r:8 r:8 r:4 r:8
+m
+E:  R
+R:  a3:8 a3 a3 a3 a3 a3
+L:  r:4. e3:4(_"(p)" g3:8)
+L2: s:4. <a2 c3>:4.
+m
+E:  R
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <d3 f#3>:4. <c3 e3>:4.
+m
+E:  R
+R:  a3:8 a3 a3 a3 a3 a3
+L:  <a1 a2>:8-. r:8 r:8 r:4 r:8
