@@ -1,0 +1,70 @@
+# ---------------- page 17 (Scherzo cont.) ----------------
+# "(3 half notes)" brackets above = hemiola hint, given as text.
+m page
+E:  gb3:2.(
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  f3:4.~^"(hemiola: 3 half notes over 2 bars)" f3:8 bb3:4~
+R:  <f4@3 bb4@3>:8-.\< a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  bb3:4 ab3:8~ ab3:4.\!
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)\!
+L:  R
+m
+E:  db4:2.
+R:  <db4@3 ab4@3>:8-.\! b4:8( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)
+L:  R
+m
+E:  bn3:2.)
+R:  <db4@3 ab4@3>:8-. b4:8( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)
+L:  R
+m sys
+E:  g3:2.~(\<
+R:  <db4@3 ab4@3>:8-.\< b4:8( e5:8) <ab4@3 db5@3>:8-. b4:8( e5:8)
+L:  R
+m
+E:  g3:2.~
+R:  <db4@3 ab4@3>:8-. b4:8( e5:8) <ab4@3 db5@3>:8-. b4:8( e5:8)
+L:  R
+m
+E:  g3:2.\!
+R:  <f4@3 bb4@3>:8-.\! a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  a3:2.)
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m sys
+E:  gb3:4.~(_"cresc."^"(hemiola: 3 half notes over 2 bars)" gb3:8 f3:4~
+R:  <f4@3 bb4@3>:8-._"cresc." a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  f3:8 bb3:4~ bb3:4.
+R:  <f4@3 bb4@3>:8-. a4:8( d5:8) <bb4@3 db5@3>:8-. a4:8( dn5:8)
+L:  R
+m
+E:  ab3:4.--)_"(mf)" db4:4.--
+R:  <en4@3 bb4@3>:8-._"(mf)" bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)
+L:  R
+m
+E:  bn3:4.-- g3:4.--
+R:  <en4@3@acc bb4@3>:8-. bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)
+L:  R
+m sys
+E:  2:3{ a3:8->(\< b3:8 } d#4:4.
+R:  <en4@3@acc bb4@3>:8-.\< bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)
+L:  R
+m
+E:  d4:2.)\!
+R:  <en4@3@acc bb4@3>:8-. bn4:8( e5:8) <bb4@3 eb5@3>:8-. bn4:8( en5:8)\!
+L:  R
+m
+E:  d4:4\f c4:4-> dn4:4->^"(3)"
+R:  <db4@3 ab4@3>:8-.\f b4:8( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)
+L:  R
+m
+E:  eb4:4-> f#4:4-> en4:4->^"(3)"
+R:  <db4@3 ab4@3>:8-. b4:8( e5:8) <bb4@3 f5@3>:8-. bn4:8@acc( e5:8)
+L:  R
