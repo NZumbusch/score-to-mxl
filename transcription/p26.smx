@@ -1,49 +1,61 @@
-# ---------------- page 26 (fugue; FIRST-PASS DRAFT from Audiveris: bar structure/rhythm/dynamics enforced, pitches need review) ----------------
+# ---------------- page 26 (fugue, cont.; read from the scan. Euphonium checked note by note; piano voices/rhythm from the scan,
+# pitches from the notehead overlay; remaining doubts flagged #?) ----------------
+# system 1
 m page
-E:  f3:8. e3:16 f3:8-. g3:8-. ab3:8. g3:16 ab3:8-. bb3:8-.   #? DRAFT
-R:  bb4:16 d4:16 d4:16-. g4:16-. ab4:16 d4:16 db5:16 d4:16 dn4:16-. bn4:16 g4:16 a#4:16-. b4:16 d4:16 c#5:16 d4:16   #? DRAFT
-L:  <b2 bn3>:4. <bb2 bb3>:8 <f2 f3>:8 s:4 s:8   #? DRAFT
+E:  f3:8.( e3:16 f3:8-.) g3:8-. ab3:8.( g3:16 ab3:8-.) bb3:8-.
+R:  \clef"treble" bb4:16( d4:16) d4:16-. g4:16-. ab4:16( d4:16) db5:16( dn4:16) dn4:16-. bn4:16( g#4:16) a#4:16-. b4:16( d4:16) c#5:16( d4:16)
+L:  <bn2 bn3>:4. <bb2 bb3>:8 <f2 f3>:8 <e2 e3>:4 <f#2 f#3>:8~
 m
-E:  bn3:4 bb3:4 an3:4 ab3:8 g3:8   #? DRAFT
-R:  dn5:4. <f4 d5>:4 s:4 s:8   #? DRAFT
-L:  <f#2 f#3>:16 <g2 g3>:16-. <bb2 bb3>:16-. <a2 a3>:16-. <ab2 ab3>:16-. <g2 g3>:16-. <d3 d4>:16-. <db3 db4>:16-. <c3 c4>:16-. <an2 an3>:16-. <bn2 bn3>:16-. <g2 g3>:16-. r:16 <e2 e3>:16-. <f#2 f#3>:16-. <g2 g3>:16-.   #? DRAFT
+E:  bn3:4( bb3:4 an3:4 ab3:8 g3:8)
+R:  dn5:4. d5:8( g{f5:16} e5:8 d5:8) b4:4~
+L:  <f#2 f#3>:16 <g2 g3>:16-. <bb2 bb3>:16-. <a2 a3>:16-. <ab2 ab3>:16-. <g2 g3>:16-. <d3 d4>:16-. <db3 db4>:16-. <c3 c4>:16-. <an2 an3>:16-. <bn2 bn3>:16-. <g2 g3>:16-. r:16 <e2 e3>:16-. <f#2 f#3>:16-. <g2 g3>:16-.   #? last beat
 m
-E:  f#3:4-- r:16 f#3:16-. f#3:16-. f#3:16-. f#3:16 d#3:16 e3:8\mp e3:8. f#3:16-.\mp   #? DRAFT
-R:  b4:16-. b4:16-. b4:16-. d4:16 d4:16-. d4:16-. d4:16 b3:16 c#4:4~\fermata c#4:16\mp d4:16-. d4:16-. d4:16-.   #? DRAFT
-L:  <g#2 g#3>:8-. r:8 r:8. <g#2 g#3>:16 <f#2 f#3>:16 <fn2 fn3>:16-. <e2 e3>:16-. r:16 r:4   #? DRAFT
+E:  f#3:4-- r:16 f#3:16-. f#3:16-. f#3:16-. f#3:16( d#3:16 e3:8~) e3:8. f#3:16-.\mp
+R:  b4:16-. b4:16-. b4:16-. b4:16( b4:16) g#4:16( a#4:8~) a#4:8. b4:16-.\mp b4:16-. b4:16-. b4:16( g4:16)
+R2: r:8. d4:16-. d4:16-.( d4:16-. d4:16-. b3:16) c#4:4~\> c#4:16\! d4:16-.\mp d4:16-. d4:16-.
+L:  <g#2 g#3>:8 r:8 r:8. <e2 c3>:16( <d#2 b#2>:16 <d2 bn2>:16 <c2 a2>:16-.) r:16 r:4   #? LH 16th dyads approximate
+# system 2
 m sys
-E:  f#3:16-. f#3:16-. f#3:16 d#3:16 e3:4~\f e3:8 eb3:4 <f2 dn3>:8~   #? DRAFT
-R:  a#4:4~ a#4:16 b4:16 b4:16-. b4:16-.\f b4:16 g#4:16 a#4:8-> gn4:16 g#4:8->-. f4:16   #? DRAFT
-L:  r:16 <e2 e3>:16 <f#2 f#3>:16 <gn2 gn3>:16-. <g#2 g#3>:8-. s:2 s:8   #? DRAFT
+E:  f#3:16-. f#3:16-. f#3:16( d#3:16) e3:4~( e3:8 eb3:4 dn3:8~
+R:  a#4:4~ a#4:16 b4:16-.\f b4:16-. b4:16-. b4:16( g#4:16) a#4:8-> gn4:16 g#4:8->( f4:16)
+R2: d4:16( b3:16) c#4:8~\< c#4:8.\! d4:16\f d4:16 d4:16 d4:16_"dim." b3:16 c4:8 c#4:16 d4:16~
+L:  r:16 <c2 e3>:16( <c#2 f#3>:16 <d2 gn3>:16-.) <d#2 g#3>:8-. r:8 r:8. <fn1 fn2>:16-. r:8 <gn1 gn2>:16-. r:16   #? low octaves (beats 3-4)
 m
-E:  d3:8 c#3:8-- 3:2{ d3:8-! c#3:16 } d3:16 en3:8 d3:16 e3:16 fn3:8 e3:16 f3:16 s:16   #? DRAFT
-R:  gn4:8-> e4:16 f4:16~ f4:16 d4:16\mf e4:16 f4:16 g4:16 e4:16 f4:16 g4:16 ab4:16 f4:16 g4:16 ab4:16   #? DRAFT
-L:  r:16 <g1 g#2>:8-. s:2 s:4 s:16   #? DRAFT
-m
-E:  g3:16-.\f e3:16-. f#3:16-.\p e3:16-. g3:32-> f#3:32 fn3:32 e3:32 e3:16-. r:16 e3:16-. f#3:16-. e3:16-. s:4 s:16   #? DRAFT
-R:  <db4 bb4>:4.\f s:2 s:8   #? DRAFT
-L:  <g1 g2>:4 e3:4 <cn2 cn3>:16\mf <bb1 bb2>:16 <an1 an2>:16 <g1 g2>:8. <a1 a2>:16 s:16   #? DRAFT
+E:  d3:8) c#3:8-- d3:8(_"cresc." c#3:16 d3:16) en3:8( d3:16 e3:16) fn3:8( e3:16 f3:16)
+R:  gn4:8->( e4:16 f4:16~) f4:16( d4:16 e4:16 f4:16) g4:16( e4:16 f4:16 g4:16) ab4:16( f4:16 g4:16 ab4:16)
+R2: d4:16 b3:16 c#4:8 bn3:16( cn4:16) db4:8-.\mf r:8 db4:8( cn4:8 e4:8)   #? lower voice approximate
+L:  r:16 <g#1 g#2>:16-. r:8 <bb1 bb2>:8-. r:16 <d2 d3>:16( <c#2 c#3>:16 <bn1 bn2>:16-. <bb1 bb2>:16-.) r:16 r:16 <bn1 bn2>:16->( <bb1 bb2>:16 <ab1 ab2>:16-.)
+# rehearsal E: euphonium has the subject in diminution (E F# E | G F# F E ...)
+m reh="E"
+E:  g3:16-.\f e3:16-. f#3:16-. e3:16-. g3:32->( f#3:32 fn3:32 e3:32) r:16 e3:16-. f#3:16-. e3:16-. bb3:32->( g3:32 f#3:32 e3:32) r:16 e3:16-. f#3:16-. e3:16-.
+R:  <db4 bb4>:4.\f^"marked" <an4 c5>:8 <g4 bb4 d5>:8( <f#4 a4 d#5 f#5>:8) 3:2{<c5 eb5 g5>:8( <b4 d5 f#5>:8 <a4 c5 e5 a5>:8)}   #? chord spellings beats 3-4
+L:  <g1 g2>:4 r:16 <cn2 cn3>:16(\mf <bb1 bb2>:16 <an1 an2>:16) <g1 g2>:8. <a1 a2>:16 <bb1 bb2>:16( <cn2 cn3>:16 <bb1 bb2>:16 <a1 a2>:16)
+# system 3
 m sys
-E:  c4:16-> e3:16 e3:16-. a3:16-. bb3:16-> e3:16 eb4:16-> en3:16 e3:16-. db4:16-> bb3:16 c4:16-. db4:16-> en3:16 eb4:16-> en3:16   #? DRAFT
-R:  e5:2 <g4 b4 db5 e5 g5>:4. s:8   #? DRAFT
-L:  s:2 <g1 g2>:8. <f#1 f#2>:16 <g1 g2>:8-. <a1 a2>:8-.   #? DRAFT
+E:  c4:16->( e3:16) e3:16-. a3:16-. bb3:16->( e3:16) eb4:16->( en3:16) e3:16-. db4:16->( bb3:16) c4:16-. db4:16->( en3:16) eb4:16->( en3:16)
+R:  <bb4 db5 eb5 g5>:4. <b4 d#5 f#5>:8_"dim." <d4 gb4 bb4 d5>:8 <c4 e4 g4 c5>:4 <bb3 d4 g4 bb4>:8   #? chord spellings
+L:  <g1 g2>:8.( <f#1 f#2>:16 <g1 g2>:8-.) <a1 a2>:8-. <bb1 bb2>:8.( <a1 a2>:16 <bb1 bb2>:8-.) <c2 c3>:8-.
+# bar 8: RH upper voice has the subject in diminution on E (as the euphonium at rehearsal E)
 m
-E:  en4:4--\f r:16 eb4:16-> db4:16 c4:16 bb3:8. a3:16 bb3:16 c4:16 bb3:16 a3:16   #? DRAFT
-R:  <a3 c4 a4>:16\mf e4:16-. f#4:16-. e4:16-. g4:32-> f#4:32\mf fn4:32 e4:32 r:16 e4:16-. f#4:16-. e4:16-. bb4:32-> g4:32 f#4:32 <e4 f#4>:16 s:8 s:16 s:32   #? DRAFT
-L:  <c2 c#3>:4.\f <d#2 d#3>:8 <e2 e3>:8 <a2 a3>:8 s:4   #? DRAFT
+E:  en4:4-- r:16 eb4:16->(\mf db4:16 c4:16) bb3:8.( a3:16) bb3:16( c4:16 bb3:16 a3:16)
+R:  a4:16\f e4:16-. f#4:16-. e4:16-. g4:32->( f#4:32 fn4:32 e4:32) r:16 e4:16-. f#4:16-. e4:16-. bb4:32->( g4:32 f#4:32 e4:32) r:16 e4:16-. f#4:16-. e4:16-.
+R2: <a3 c#4 e4>:8\mf s:4. s:2   #? lower chord
+L:  <c#2 c#3>:4.\f_"marked" <d#2 d#3>:8 <e2 e3>:8 <a2 a3>:8 3:2{<f#2 f#3>:8( <g2 g3>:8) <cn3 cn4>:8}   #? approximate
 m
-E:  g3:8. f#3:16 g3:8-. a3:8-. bb3:8. a3:16 bb3:8-. c4:8-.   #? DRAFT
-R:  c5:16-> e4:16 e4:16-. a4:16-. bb4:16-> e4:16-. eb5:16-> e4:16-. e4:16-. db5:16-> bb4:16 c5:16-. db5:16-> e4:16 eb5:16-> eb4:16   #? DRAFT
-L:  <bb2 bb3>:4. <c3 c4>:8 <db3 db4>:8 <gb3 gb4>:8 3:2{ <eb3 eb4>:8~ <eb3 eb4>:8 <a3 a4>:8 }   #? DRAFT
+E:  g3:8.(_"cresc." f#3:16 g3:8-.) a3:8-. bb3:8.( a3:16 bb3:8-.) c4:8-.
+R:  c5:16->( e4:16) e4:16-. a4:16-. bb4:16->( e4:16) eb5:16->( en4:16) e4:16-. db5:16->( bb4:16) c5:16-. db5:16->( en4:16) eb5:16->( en4:16)
+L:  <bb2 bb3>:4. <c3 c4>:8 <db3 db4>:8 <gb3 gb4>:8 3:2{<eb3 eb4>:8( <en3 en4>:8) <a3 a4>:8}
+# system 4.  Bar 10: euphonium has the subject in diminution on A (cf. rehearsal E).
 m sys
-E:  c#4:16\f a3:16-> bn3:16 a3:16 cn4:32 b3:32 bb3:32 a3:32 a3:16-> e3:2 s:16   #? DRAFT
-R:  <b4 en5>:4.\mf s:2 s:8   #? DRAFT
-L:  <g3 a3 c#4>:4 <f#3 a#3 c#4>:8 <e3 g3 b3 e4>:8 <eb3 g3 cn4 eb4>:8 3:2{ <d3 f#3 an3 d4>:8~ <b2 d#3 f#3 b3>:8 <a2 cn3 fn3 a3>:8 } s:8   #? DRAFT
+E:  c#4:16-.\f a3:16->-. bn3:16->-. a3:16->-. cn4:32->( b3:32 bb3:32 a3:32) r:16 a3:16-> bn3:16->-. a3:16->-. eb4:32->( c4:32 b3:32 a3:32) r:16 a3:16-. b3:16-. a3:16-.
+R:  <b4 en5>:4.\f^"marked" <a#4 c#5 f#5>:8 <g4 b4 g5>:8 <c5 g5 c6>:8 3:2{<d5 f5 a5>:8( <b4 d#5 f#5 b5>:8) <f5 a5 c6 f6>:8}   #? chord spellings
+L:  <g3 a3 c#4>:4.^"marked" <f#3 a#3 c#4>:8 <e3 g3 b3 e4>:8 <eb3 g3 cn4 eb4>:8 3:2{<d3 f#3 an3 d4>:8( <b2 d#3 f#3 b3>:8) <a2 cn3 fn3 a3>:8}
 m
-E:  f4:16-> a3:16 a3:16 d4:16-. eb4:16-> a3:16-. f4:16-> a3:16 gb4:16-> a3:16 a3:16 f4:16-. gb4:16-> a3:16 ab4:16-> an3:16   #? DRAFT
-R:  <d#5 f#5 b5 d#6>:8.~ <dn5 f#5 a5>:16 s:2 s:4   #? DRAFT
-L:  <b2 f#3 b3>:8. 3:2{ <d3 f#3 a3>:16~ <b2 f#3 b3>:8-. } <c3 fn3 a3>:8-. <b2 d#3 f3 b3>:8. <c3 fn3 a3 c4>:16 <b2 d#3 f#3 b3>:8-. <ab2 c3 eb3 ab3>:8-. s:16   #? DRAFT
-m
-E:  ab4:4.--\ff ab4:8 bn4:8 ab4:8-> f#4:4->   #? DRAFT
-R:  <c6 f6 an6>:8->\ff a5:8-> c6:8 b5:8 e6:16-> c#6:16-> eb6:16.-> c#6:16-> r:16 s:8 s:32   #? DRAFT
-L:  <f2 an2 c3 f3>:16-> an3:16-> c4:16-> a3:16-> bb3:16-> a3:16-> gb4:16-> f4:16-> e4:16-> c#4:16-> eb4:16.-> cn4:16-> r:16 <d3 f#3 a3 d4>:16 <d3 fn3 a3 db4>:16 <c3 e3 g3 c4>:32->   #? DRAFT
+E:  f4:16->(_"cresc." a3:16) a3:16-. d4:16-. eb4:16->( a3:16) f4:16->( a3:16) gb4:16->( a3:16) a3:16-. f4:16-. gb4:16->( a3:16) ab4:16->( an3:16)
+R:  <b4 d#5 f#5 b5>:8.( <d5 f5 a5 d6>:16 <b4 d#5 f#5 b5>:8) <f5 a5 c6 f6>:8-. <b4 d#5 f#5 b5>:8.( <c5 f5 a5 c6>:16 <b4 d#5 f#5 b5>:8-.) <ab5 c6 eb6 ab6>:8-.   #? RH voicing (same harmonies as LH)
+L:  <b2 f#3 b3>:8.(_"cresc." <d3 f#3 a3>:16 <b2 f#3 b3>:8) <c3 fn3 a3>:8-. <b2 d#3 f#3 b3>:8.( <c3 fn3 a3 c4>:16 <b2 d#3 f#3 b3>:8-.) <ab2 c3 eb3 ab3>:8-.
+# rehearsal F: both piano hands in octaves (2 octaves apart): A C A | Bb A Gb F | E D# Eb D
+m reh="F"
+E:  an4:4.->\ff\breath f4:8( g{bb4:16} an4:8) f4:8-> f#4:4->~
+R:  <c6 f6 an6>:16->\ff a5:16-> c6:16-> a5:16-> bb5:16-> a5:16-> gb6:16-> f6:16-> e6:16-> d#6:16-> eb6:16-> dn6:16-> r:16 <f#5 a5 d6>:16->( <f5 a5 db6>:16) <e5 g5 c6>:16->   #? beat-1 chord and beat-4 chords
+L:  <f2 an2 c3 f3>:16->\ff an3:16-> c4:16-> a3:16-> bb3:16-> a3:16-> gb4:16-> f4:16-> e4:16-> d#4:16-> eb4:16-> dn4:16-> r:16 <d3 f#3 a3 d4>:16->( <d3 fn3 a3 db4>:16) <c3 e3 g3 c4>:16->

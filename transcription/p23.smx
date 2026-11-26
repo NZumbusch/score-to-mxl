@@ -1,55 +1,57 @@
-# ---------------- page 23 ----------------
-# FUGUE SUBJECT (euph, Var. VII bar 1):  r16 g2 a2 g2 | bb2-> a2 ab2 g2 | r16 g2 an2 g2 | bb2-> a2 ab2 g2
-# Use this (transposed) to cross-check later fugue entries.
-# system 1: end of Var. VI.  Piano uses 8va (RH) / 8vb (LH) -- pitches below are WRITTEN pitches; exact piano chords best-effort (#?).
+# ---------------- page 23 (end of Var. VI, start of Var. VII Fuga; re-read from the scan) ----------------
+# FUGUE SUBJECT (euph, Var. VII bar 1), with 32nd-note turns:
+#   r16 g2 a2 g2 | bb2:32 a2 ab2 g2  r16 g2 | an2:16 g2 db3:32 bb2 a2 g2 | r16 g2 a2 g2
+# Its diminution/transpositions recur on pp. 26-29 (e.g. p26 rehearsal E on E, p26 bar 10 on A, p27 bar 8 RH on G).
+# OCTAVE LINES: notes are written at SOUNDING pitch (MusicXML convention); \8va/\8vb + \8vx only change the display.
+# system 1: end of Var. VI.  RH: descending C-major arpeggio, first pair 8va; LH: C#/A# + F# arpeggio, treble->bass clef.
 m page time=4/4
-E:  r:4 d4:16-.\p e4:16-. g4:8~ g4:2~
-R:  r:2 \8va <g5@1 c6 e6>:16->\f\< e5:16 <g5 c6 e6>:16 e5:16 <g4 c5 e5>:16 e4:16 <g3 c4 e4>:16 e3:16   #? approximate
-L:  r:2 \8vb <c#4 a#4>:16-> f#3:16 <c#3 a#3>:16 f2:16 <c#4 a#4>:16 d#3:16 <a#2 f#3>:16 d#2:16   #? approximate
+E:  r:4 d4:16-.\p\< e4:16-. g4:8~ g4:2~
+R:  \clef"treble" r:2 <g6 c7 e7>:16->\8va\f\<( e6:16) <g5 c6 e6>:16\8vx( e5:16) <g4 c5 e5>:16( e4:16) \clef"bass" <g3 c4 e4>:16( e3:16)\!
+L:  \clef"treble" r:2 <c#5 a#5>:16->\f\<\ped( f#4:16) <c#4 a#4>:16( f#3:16) \clef"bass" <c#3 a#3>:16( f#2:16) <c#2 a#2>:16( f#1:16)\unped\!
 m tempo="expansively"
-E:  g4:8-. g4:4-> f4:8-> eb4:8-- bb3:8-- 3:2{ c4:8-- g3:8-- a3:8-- }\ff
-R:  eb3:8->-.\sff r:8 r:4 r:2   #? written pitch; 8va
-L:  <a3 a4>:8->-. r:8 r:4 r:2   #? approximate
+E:  g4:8-.\ff g4:4-> f4:8-> eb4:8--\> bb3:8-- 3:2{c4:8-- g3:8-- a3:8--}\!
+R:  <c3 eb3>:8->-.\sff r:8 r:4 r:2
+L:  <cn1 cn2>:8->-.\8vb r:8\8vx r:4 r:2
 m
-E:  f#3:1~->
-R:  r:8 <c3 eb3>:8->-.\f <c3 eb3>:8-. <bn2 f3>:8-> <c3 eb3>:8-. <c3 eb3>:8->-. r:4   #? approximate
-L:  r:8 <a3 a4>:8-> r:8 <bb3 bb4>:8 <a3 a4>:8-. r:8 r:4   #? approximate
+E:  f#3:1~->\< 
+R:  r:8\! <c3 eb3>:8->-.\f r:8 <c3 eb3>:8-. <bn2 f3>:8->( <c3 eb3>:8-.) r:8 <c3 eb3>:8->-.
+L:  r:8\8vb <c1 c2>:8-.\f r:8 <c1 c2>:8-. <db1 db2>:8->( <c1 c2>:8-.) r:8 <c1 c2>:8->-.
 # system 2
 m sys
-E:  f#3:8\mf r:8 g3:8-- fn3:8-- eb3:8-- bb2:8-- 3:2{ c3:8-. g2:8-. a2:8-. }
+E:  f#3:8\mf r:8 g3:8-- fn3:8-- eb3:8--\> bb2:8-- 3:2{c3:8-. g2:8-. a2:8-.}\!
 R:  R
-L:  R
+L:  R\8vx
 m
 E:  f#2:1~\p
-R:  r:8 <c3 eb3>:8-.\p r:8 <c3 eb3>:8-. <bn2 f3>:8-- <c3 eb3>:8-. <bn2 f3>:8-- <c3 eb3>:8-.   #? approximate
-L:  <c2 c3>:8-. r:8 <c2 c3>:8-. <db2 db3>:8-- <c2 c3>:8-. <db2 db3>:8-- <c2 c3>:8-. r:8   #? approximate
+R:  r:8 <c3 eb3>:8-.\p r:8 <c3 eb3>:8-. <bn2 f3>:8--( <c3 eb3>:8-.) <bn2 f3>:8--( <c3 eb3>:8-.)
+L:  r:8\8vb <c1 c2>:8-.\p r:8 <c1 c2>:8-. <db1 db2>:8--( <c1 c2>:8-.) <db1 db2>:8--( <c1 c2>:8-.)
 m bar=double
 E:  f#2:1\fermata
-R:  r:8 <c3 eb3>:8-. r:4 <c3 eb3>:8-. r:8 r:4\fermata   #? approximate
-L:  r:8 <c2 c3>:8-. r:4 <c2 c3>:8-. r:8 r:4\fermata
-# system 3: Var. VII Fuga (piano: only the bottom staves)
+R:  r:8 <c3 eb3>:8-. r:4 <c3 eb3>:8-. r:8 r:4\fermata
+L:  r:8 <c1 c2>:8-. r:4 <c1 c2>:8-. r:8 r:4\fermata\8vx
+# system 3: Var. VII Fuga (piano: LH only, 8vb until bar 3 beat 1)
 m sys reh="Var. VII Fuga" mm=q=88
-E:  r:16 g2:16-.\mp a2:16-. g2:16-. bb2:16->( a2:16 ab2:16 g2:16) r:16 g2:16-. an2:16-. g2:16-. bb2:16->( a2:16 ab2:16 g2:16)
+E:  r:16 g2:16-.\mp a2:16-. g2:16-. bb2:32->( a2:32 ab2:32 g2:32) r:16 g2:16-. an2:16-. g2:16-. db3:32->( bb2:32 a2:32 g2:32) r:16 g2:16-. a2:16-. g2:16-.
 R:  R
-L:  <c#2 c#3>:8\mp r:8 r:8 <c#2 c#3>:8 r:4 <c#2 c#3>:8 r:8   #? approximate
+L:  <c#1 c#2>:8-.\8vb\mp r:8 r:8 <c#1 c#2>:8-. r:4 <c#1 c#2>:8-. r:8
 m
-E:  eb3:16->(\< g2:16 c3:16 g2:16) c#3:16->( g2 d#3 g2) e3:16->(\mf g2 d3 g2) f3:16->( g2 e3 g2)   #? subject answer: transposed/varied; pitches approximate
+E:  eb3:16->(\< g2:16) g2:16-. c3:16-. c#3:16->( g2:16) f#3:16->( g2:16) g2:16-. en3:16->( c#3:16) d#3:16-. e3:16->(\mf g2:16) f#3:16->( g2:16)   #? beats 3-4: C and F read with the accidentals carried from beat 2
 R:  R
-L:  r:8 <c#2 c#3>:8 r:8 <c#2 c#3>:8 r:8 <c#2 c#3>:16 r:16 <c#2 c#3>:8 r:8   #? approximate
+L:  r:8 <c#1 c#2>:8-.\< r:16 <c#1 c#2>:16-. r:16 <c#1 c#2>:16-. <c#1 c#2>:8-.\mf r:8 r:8 <c#1 c#2>:8-.\mf
 m
-E:  g3:2\< g3:8(\mf g{bb3:16} a3:8 g3:8) e3:8~   #? rhythm approximate
+E:  g3:4.\< g3:8(\mf g{ab3:16} an3:8 g3:8) en3:4~\mp
 R:  R
-L:  r:16 e2:16-.( bb1:16 g1:16 g1:16 ab1:16 g1:16 f#1:16 g1:16 f1:16 g1:16 f#1:16 e1:16-. d1:16 e1:16 d1:16)   #? approximate
+L:  r:16 <cn1 cn2>:16-.\8vx eb2:16-. d2:16-. db2:16-. c2:16-. g2:16-. gb2:16-. f2:16-. dn2:16-. en2:16-. c2:16-. r:16 a1:16-. b1:16-. c2:16-.   #? 16th run read from the overlay
 # system 4
 m sys
-E:  e3:16-. e3 e3 e3 c#3:16 d3:8~ d3:8. e3:16\p e3 e3 e3 e3:16 c#3:16   #? approximate
+E:  e3:16-. e3:16-. e3:16-. e3:16-. e3:16( c#3:16) d#3:8~ d#3:8. e3:16-.\p e3:16-. e3:16-. e3:16( c#3:16)
 R:  R
-L:  <c#2 c#3>:8 r:8 r:8 e2:16-. d2 d2 e2 r:8 r:4   #? approximate
+L:  c#2:8-. r:8 r:8. cn2:16( b1:16 bb1:16 a1:16-.) r:16 r:4   #? C natural assumed (chromatic descent)
 m
-E:  d#3:2~ d3:16\mf e3 e3 e3 e3:16 c#3:16 eb3:8->   #? approximate
+E:  d#3:4~ d#3:16 e3:16-.\mf e3:16-. e3:16-. e3:16( c#3:16) eb3:8-> cn3:16( db3:8->) bb2:16
 R:  R
-L:  r:16 e2:16 d2 d2 e2:8 r:8 r:8 e2:8 r:4   #? approximate
+L:  r:16 a1:16-.( b1:16-.) c2:16-. c#2:8-. r:8 r:8. d#2:16-. r:8 e2:8-.
 m
-E:  c3:8->( a2:16 bb2 a2 bb2 g2 a2 g2 a2 bb2 c3 bb2 c3 bb2 c3)   #? approximate
+E:  c3:8->( a2:16) bb2:16~-> bb2:16( g2:16 a2:16-. bb2:16-.) c3:16->( a2:16 bb2:16-. c3:16-.) db3:16->(\> bb2:16 c3:16 db3:16)\!
 R:  R
-L:  r:16 f#2:8-. g2:8-. r:16 g2:16 d2 d2 r:16 r:8 g2:16 d2 s:8   #? approximate
+L:  r:16 f#2:16-. r:8 f#2:8-. r:16 g2:16( f#2:16 e2:16-. d2:16-.) r:16 r:16 f#2:16( e2:16 d2:16-.)   #? pitches from the overlay

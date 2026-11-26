@@ -2,7 +2,7 @@
 # from the scan, chord pitches from the notehead overlay + visible accidentals, flagged #? where a chord is not fully legible) ----------------
 # system 1
 m page time=3/4
-E:  f4:16 f#4:16-.\mf f#4:16-. f#4:16-. f#4:16( eb4:16 fn4:8~) f4:16 f4:16-. f4:16-. f4:16-.
+E:  f#4:16 f#4:16-.\mf f#4:16-. f#4:16-. f#4:16( eb4:16 fn4:8~) f4:16 f4:16-. f4:16-. f4:16-.
 R:  \clef"treble" <an5 dn6 f#6>:16-> r:16 r:16 a5:16-.\mf a5:16 a5:16-. a5:16-. a5:16( g#5:4~)
 R2: s:4 r:16 d5:16-.\mf d5:16-. <d#5 f#5>:16-. d5:16( b4:16) c#5:8~
 L:  <b2 d#3 f#3 b3>:16-> r:16 r:8 r:8 r:16 b3:16-.\mf b3:16-. b3:16-. b3:16( g#3:16)
@@ -37,7 +37,7 @@ L:  r:16 <g2 b2 d3 g3>:16->( <ab2 c3 eb3 ab3>:16) <an2 c#3 e3 an3>:16-> <bb2 d3 
 # Bar 8: RH has the fugue subject in diminution (G A G | Bb A Ab G).  Euph: flutter-valve glissandi, "omit this passage if necessary".
 m time=4/4
 E:  g4:4~(\f g4:8\gl"wavy"_"(flutter valves)" bb3:8-^-.)\glstop f#4:8~(_"(simile)" f#4:8\gl"wavy" bb3:8-^-.)\glstop en4:8~(^"omit this passage if necessary to rest the lip before next entrance"
-R:  r:16 g4:16-. a4:16-. g4:16-. bb4:32->( a4:32 ab4:32 g4:32) r:16 g4:16-. an4:16-. g4:16-. db5:32->( bn4:32 an4:32 g4:32) r:16 g4:16-. a4:16-. g4:16-.   #? 32nds of beat 3
+R:  r:16 g4:16-. a4:16-. g4:16-. bb4:32->( a4:32 ab4:32 g4:32) r:16 g4:16-. an4:16-. g4:16-. db5:32->( bb4:32 a4:32 g4:32) r:16 g4:16-. a4:16-. g4:16-.   # = fugue subject in diminution (cf. p23)
 L:  <an3 c#4 d4>:4.(\f <c#3 g#3 cn4>:8-^-.) <f#3 a#3 c#4>:4( <c3 g3 bb3>:8-^-.) <g3 b3 d4>:8~   #? chord spellings of beats 2-4
 # system 4.  Bars 9-11 piano: rhythm from the scan, pitches from the notehead overlay; dense spots flagged.
 m sys
