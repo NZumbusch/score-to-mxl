@@ -2856,17 +2856,17 @@
 <attributes><time><beats>4</beats><beat-type>4</beat-type></time></attributes>
 <direction placement="above"><direction-type><rehearsal enclosure="rectangle">A</rehearsal></direction-type></direction>
 <direction placement="below"><direction-type><dynamics><p/></dynamics></direction-type><sound dynamics="55"/></direction>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental><notations><articulations><tenuto/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
 <note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
-<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><beam number="1">begin</beam></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">backward hook</beam></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">backward hook</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
 </measure>
 <measure number="299">
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
@@ -2906,17 +2906,18 @@
 <measure number="302">
 <note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">end</beam><beam number="2">end</beam></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>360360</duration><tie type="start"/><voice>1</voice><type>quarter</type><notations><tied type="start"/></notations></note>
+<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>360360</duration><tie type="start"/><voice>1</voice><type>quarter</type><notations><tied type="start"/><slur type="start" number="1"/></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>180180</duration><tie type="stop"/><voice>1</voice><type>eighth</type><notations><tied type="stop"/></notations></note>
-<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><accidental>natural</accidental><notations><tied type="start"/></notations></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><accidental>natural</accidental><notations><tied type="start"/><slur type="start" number="1"/></notations></note>
 </measure>
 <measure number="303">
 <print new-system="yes"/>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><tie type="stop"/><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><tie type="stop"/><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><tied type="stop"/><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><beam number="1">end</beam><notations><articulations><tenuto/></articulations></notations></note>
+<direction placement="below"><direction-type><words font-style="italic">cresc.</words></direction-type></direction>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
@@ -2925,8 +2926,6 @@
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
-<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type></direction>
-<direction placement="below"><direction-type><words font-style="italic">cresc.</words></direction-type></direction>
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 </measure>
 <measure number="304">
@@ -2937,19 +2936,18 @@
 <note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 </measure>
 <measure number="305">
 <attributes><time><beats>4</beats><beat-type>4</beat-type></time></attributes>
 <direction placement="above"><direction-type><rehearsal enclosure="rectangle">B</rehearsal></direction-type></direction>
-<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
 <direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><sound dynamics="85"/></direction>
 <note><pitch><step>F</step><octave>3</octave></pitch><duration>540540</duration><voice>1</voice><type>quarter</type><dot/><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>flat</accidental><notations><slur type="stop" number="1"/><articulations><strong-accent/><staccato/></articulations></notations></note>
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>natural</accidental><notations><slur type="start" number="1"/></notations></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><articulations><strong-accent/><staccato/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><accidental>natural</accidental><beam number="1">end</beam><notations><tied type="start"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><slur type="stop" number="1"/><articulations><strong-accent/><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><accidental>natural</accidental><beam number="1">end</beam><notations><tied type="start"/><slur type="start" number="1"/></notations></note>
 </measure>
 <measure number="306">
 <print new-system="yes"/>
@@ -2960,44 +2958,49 @@
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
 <note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>F</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/><articulations><strong-accent/><staccato/></articulations></notations></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>natural</accidental><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental parentheses="yes">flat</accidental><notations><slur type="stop" number="1"/><articulations><strong-accent/><staccato/></articulations></notations></note>
 </measure>
 <measure number="307">
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
-<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">end</beam><beam number="2">end</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">end</beam><beam number="2">end</beam></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
-<note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
-<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <direction placement="below"><direction-type><wedge type="crescendo"/></direction-type></direction>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
+<direction placement="below"><direction-type><wedge type="diminuendo"/></direction-type></direction>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
+<note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
+<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type></direction>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 </measure>
 <measure number="308">
 <note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>180180</duration><voice>1</voice><type>eighth</type></note>
-<note><rest/><duration>180180</duration><voice>1</voice><type>eighth</type></note>
-<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
-<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><rest/><duration>270270</duration><voice>1</voice><type>eighth</type><dot/></note>
+<direction placement="below"><direction-type><wedge type="diminuendo"/></direction-type></direction>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
 <note><rest/><duration>360360</duration><voice>1</voice><type>quarter</type></note>
-<forward><duration>90090</duration></forward>
 </measure>
 <measure number="309">
 <print new-page="yes"/>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type></note>
-<direction placement="below"><direction-type><wedge type="stop"/></direction-type></direction>
 <direction placement="below"><direction-type><wedge type="crescendo"/></direction-type></direction>
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
@@ -10899,24 +10902,27 @@
 <measure number="298">
 <print new-page="yes"/>
 <attributes><time><beats>4</beats><beat-type>4</beat-type></time></attributes>
-<attributes><clef number="1"><sign>F</sign><line>4</line></clef></attributes>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>1</staff><sound dynamics="70"/></direction>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><beam number="3">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><beam number="3">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><rest/><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>45045</duration><voice>1</voice><type>32nd</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><beam number="3">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/><staccato/></articulations></notations></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
 <backup><duration>1441440</duration></backup>
 <note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>flat</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
@@ -10929,30 +10935,32 @@
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="299">
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>1</staff></direction>
+<direction placement="below"><direction-type><words font-style="italic">cresc.</words></direction-type><staff>1</staff></direction>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>G</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>flat</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
 <direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>3</staff></direction>
-<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
 <direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>3</staff><sound dynamics="85"/></direction>
 <note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
@@ -10964,131 +10972,154 @@
 </measure>
 <measure number="300">
 <print new-system="yes"/>
-<direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>1</staff><sound dynamics="85"/></direction>
 <note><pitch><step>A</step><octave>3</octave></pitch><duration>540540</duration><voice>1</voice><type>quarter</type><dot/><accidental>natural</accidental><staff>1</staff></note>
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><notations><slur type="start" number="1"/></notations></note>
-<note><pitch><step>A</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><notations><slur type="stop" number="1"/></notations></note>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>540540</duration><voice>1</voice><type>quarter</type><dot/><accidental>sharp</accidental><staff>1</staff></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>1</staff></direction>
+<direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>1</staff><sound dynamics="85"/></direction>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><notations><slur type="start" number="1"/></notations></note>
+<note><grace slash="yes"/><pitch><step>C</step><octave>4</octave></pitch><voice>1</voice><type>16th</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>360360</duration><tie type="start"/><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff><notations><tied type="start"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
 <direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>3</staff></direction>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
 <note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="diminuendo"/></direction-type><staff>3</staff></direction>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
+<direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>3</staff><sound dynamics="70"/></direction>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>3</staff></direction>
 <note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>C</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
-<direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>3</staff><sound dynamics="70"/></direction>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="301">
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><tied type="stop"/></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><accidental>sharp</accidental><staff>1</staff><beam number="1">end</beam><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>270270</duration><tie type="stop"/><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>
 <direction placement="below"><direction-type><dynamics><p/></dynamics></direction-type><staff>1</staff><sound dynamics="55"/></direction>
-<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><accidental>sharp</accidental><staff>1</staff><beam number="1">begin</beam></note>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
-<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
-<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>540540</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
-<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><beam number="1">begin</beam></note>
-<note><pitch><step>C</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">begin</beam></note>
-<note><pitch><step>C</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
+<note><rest/><duration>270270</duration><voice>9</voice><type>eighth</type><dot/><staff>3</staff></note>
+<direction placement="below"><direction-type><wedge type="diminuendo"/></direction-type><staff>3</staff></direction>
+<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>C</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>C</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
+<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
-<note><rest/><duration>360360</duration><voice>9</voice><type>quarter</type><staff>3</staff></note>
-<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>360360</duration><voice>9</voice><type>quarter</type><staff>3</staff></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="302">
-<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff></note>
-<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><tenuto/></articulations></notations></note>
+<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>360360</duration><tie type="start"/><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>E</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><tied type="stop"/></notations></note>
+<direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>1</staff><sound dynamics="85"/></direction>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">end</beam></note>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">forward hook</beam></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><notations><articulations><accent/></articulations></notations></note>
-<direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>1</staff><sound dynamics="85"/></direction>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">forward hook</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
-<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>C</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/><tenuto/></articulations></notations></note>
+<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>3</staff></direction>
+<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>C</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>B</step><octave>1</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>3</staff></direction>
+<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>360360</duration><voice>9</voice><type>quarter</type><accidental>natural</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><rest/><duration>270270</duration><voice>9</voice><type>eighth</type><dot/><staff>3</staff></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
+<note><pitch><step>D</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="303">
 <print new-system="yes"/>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">begin</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><tie type="start"/><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><tied type="start"/><articulations><accent/></articulations></notations></note>
+<direction placement="below"><direction-type><words font-style="italic">cresc.</words></direction-type><staff>1</staff></direction>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><tie type="stop"/><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><tied type="stop"/><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/><staccato/></articulations></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">begin</beam></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><accent/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
-<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>270270</duration><voice>9</voice><type>eighth</type><dot/><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>C</step><octave>3</octave></pitch><duration>360360</duration><voice>9</voice><type>quarter</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><rest/><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="304">
 <attributes><time><beats>2</beats><beat-type>4</beat-type></time></attributes>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/><staccato/></articulations></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>720720</duration></backup>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>G</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>G</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>720720</duration></backup>
 <note><rest measure="yes"/><duration>720720</duration><voice>5</voice><staff>2</staff></note>
@@ -11098,14 +11129,15 @@
 <direction placement="below"><direction-type><dynamics><f/></dynamics></direction-type><staff>1</staff><sound dynamics="100"/></direction>
 <note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental><staff>1</staff><notations><articulations><tenuto/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
-<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
+<direction placement="below"><direction-type><dynamics><mf/></dynamics></direction-type><staff>1</staff><sound dynamics="85"/></direction>
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>C</step><alter>-1</alter><octave>4</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam></note>
-<note><pitch><step>G</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>flat</accidental><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>G</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam></note>
 <backup><duration>1441440</duration></backup>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
@@ -11113,94 +11145,101 @@
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><accent/></articulations></notations></note>
-<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><beam number="3">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><beam number="3">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">begin</beam><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+<note><pitch><step>F</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><beam number="3">continue</beam></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>45045</duration><voice>9</voice><type>32nd</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><beam number="3">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><rest/><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff></note>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>F</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>E</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="306">
 <print new-system="yes"/>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam></note>
-<note><pitch><step>F</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><notations><articulations><staccato/></articulations></notations></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>G</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>270270</duration><voice>1</voice><type>eighth</type><dot/><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>G</step><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam></note>
-<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><notations><slur type="stop" number="1"/><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>flat</accidental><staff>1</staff><beam number="1">end</beam><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
-<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>G</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>flat</accidental><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>natural</accidental><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="stop" number="1"/></notations></note>
+<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="307">
-<note><pitch><step>B</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>natural</accidental><staff>1</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>natural</accidental><staff>1</staff><notations><slur type="start" number="1"/></notations></note>
 <note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental><staff>1</staff></note>
+<direction placement="below"><direction-type><wedge type="crescendo"/></direction-type><staff>1</staff></direction>
 <note><pitch><step>A</step><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>natural</accidental><staff>1</staff></note>
 <note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><accidental>flat</accidental><staff>1</staff><beam number="1">begin</beam></note>
-<note><pitch><step>G</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam></note>
+<direction placement="below"><direction-type><wedge type="stop"/></direction-type><staff>1</staff></direction>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>180180</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><pitch><step>D</step><octave>3</octave></pitch><duration>540540</duration><voice>9</voice><type>quarter</type><dot/><staff>3</staff></note>
-<note><pitch><step>E</step><octave>3</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
-<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><notations><slur type="start" number="1"/></notations></note>
+<note><grace slash="yes"/><pitch><step>F</step><octave>3</octave></pitch><voice>9</voice><type>16th</type><staff>3</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><beam number="1">begin</beam></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>180180</duration><voice>9</voice><type>eighth</type><staff>3</staff><beam number="1">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>360360</duration><tie type="start"/><voice>9</voice><type>quarter</type><staff>3</staff><notations><tied type="start"/></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>180180</duration><tie type="stop"/><voice>9</voice><type>eighth</type><staff>3</staff><notations><tied type="stop"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
 <measure number="308">
 <direction placement="below"><direction-type><dynamics><f/></dynamics></direction-type><staff>1</staff><sound dynamics="100"/></direction>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>360360</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff><notations><articulations><tenuto/></articulations></notations></note>
 <note><rest/><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">end</beam></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><staff>1</staff><beam number="1">continue</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>180180</duration><tie type="start"/><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><notations><tied type="start"/></notations></note>
 <note><pitch><step>E</step><octave>3</octave></pitch><duration>270270</duration><tie type="stop"/><voice>1</voice><type>eighth</type><dot/><staff>1</staff><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>
 <direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>1</staff><sound dynamics="70"/></direction>
 <note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>90090</duration><voice>1</voice><type>16th</type><staff>1</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><articulations><staccato/></articulations></notations></note>
 <backup><duration>1441440</duration></backup>
-<direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>3</staff><sound dynamics="70"/></direction>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><tie type="stop"/><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><tied type="stop"/></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam></note>
-<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">end</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><accidental>sharp</accidental><staff>3</staff><beam number="1">continue</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>180180</duration><tie type="start"/><voice>9</voice><type>eighth</type><accidental>sharp</accidental><staff>3</staff><beam number="1">end</beam><notations><tied type="start"/></notations></note>
 <note><pitch><step>A</step><alter>1</alter><octave>2</octave></pitch><duration>270270</duration><tie type="stop"/><voice>9</voice><type>eighth</type><dot/><staff>3</staff><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>
+<direction placement="below"><direction-type><dynamics><mp/></dynamics></direction-type><staff>3</staff><sound dynamics="70"/></direction>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">backward hook</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">begin</beam><beam number="2">begin</beam><notations><articulations><staccato/></articulations></notations></note>
 <note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><articulations><staccato/></articulations></notations></note>
-<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam></note>
-<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">continue</beam><beam number="2">continue</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>G</step><alter>1</alter><octave>2</octave></pitch><duration>90090</duration><voice>9</voice><type>16th</type><staff>3</staff><beam number="1">end</beam><beam number="2">end</beam><notations><slur type="stop" number="1"/></notations></note>
 <backup><duration>1441440</duration></backup>
 <note><rest measure="yes"/><duration>1441440</duration><voice>5</voice><staff>2</staff></note>
 </measure>
