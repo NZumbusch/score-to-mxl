@@ -28,6 +28,8 @@ try:
 except OSError:
     font = ImageFont.load_default()
 
+# page 1: title page confuses the system finder; boxes set by hand (page pixel coordinates)
+OVERRIDE = {(1, '1'): (2210, 3240, 2830, 3500), (1, '2'): (2120, 3540, 2830, 3780)}
 pages = []
 problems = []
 for pg in sorted({int(i['Page']) for i in items}):
@@ -75,6 +77,8 @@ for pg in sorted({int(i['Page']) for i in items}):
         t, b, sp = staves[min(k, len(staves) - 1)]
         pad = 3.5 * sp
         box = (xs[bi] + 6, t - pad, xs[bi + 1] - 6, b + pad)
+        if (pg, it['#']) in OVERRIDE:          # pages where the system finder groups staves wrongly (title page)
+            box, label_extra = OVERRIDE[(pg, it['#'])], ''
         for w in range(5):
             d.rectangle((box[0] - w, box[1] - w, box[2] + w, box[3] + w), outline=(220, 0, 0))
         label = '#' + it['#'] + label_extra
