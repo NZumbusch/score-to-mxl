@@ -1,43 +1,56 @@
-# ---------------- page 27 (fugue; FIRST-PASS DRAFT from Audiveris: bar structure/rhythm/dynamics enforced, pitches need review) ----------------
+# ---------------- page 27 (fugue, cont.; read from the scan. Euphonium checked note by note; dense piano chords: rhythm/voicing
+# from the scan, chord pitches from the notehead overlay + visible accidentals, flagged #? where a chord is not fully legible) ----------------
+# system 1
 m page time=3/4
-E:  f4:16 f#4:16-.\mf f#4:16-. f#4:16-.\mf f#4:16 eb4:16 fn4:8~ f4:16 f4:16-. f4:16-. f4:16-.   #? DRAFT
-R:  <an5 dn6 f#6>:16-> r:16 r:16 a5:16-. r:16 d5:16-.\mf d5:16-. d5:16-. d5:16 b4:16 c#5:8   #? DRAFT
-L:  <b2 d#3 f#3 b3>:16-> r:16 s:2 s:8   #? DRAFT
-m
-E:  f4:16 d4:16 en4:4~ s:4 s:8   #? DRAFT
-R:  s:2 <c5 g5>:8. <ab4 db5 f5 ab5>:16->\ff   #? DRAFT
-L:  g3:2 s:4   #? DRAFT
-m time=3/4
-E:  e4:16 f4:16-.\mp f4:16-. f4:16-.\mp f4:16 d4:16 e4:8~ e4:16 e4:16-. e4:16-. e4:16-.   #? DRAFT
-R:  <fn4 ab4 db5 fn5>:16-> r:16 r:16 ab5:16-. r:16 db5:16-. db5:16-. db5:16-. db5:16 bb4:16 c5:8   #? DRAFT
-L:  <f2 db3 fn3 ab3 db4>:4-> r:8 r:16 bb3:16-. bb3:16-. bb3:16-. bb3:16 gn3:16   #? DRAFT
+E:  f4:16 f#4:16-.\mf f#4:16-. f#4:16-. f#4:16( eb4:16 fn4:8~) f4:16 f4:16-. f4:16-. f4:16-.
+R:  \clef"treble" <an5 dn6 f#6>:16-> r:16 r:16 a5:16-.\mf a5:16 a5:16-. a5:16-. a5:16( g#5:4~)
+R2: s:4 r:16 d5:16-.\mf d5:16-. <d#5 f#5>:16-. d5:16( b4:16) c#5:8~
+L:  <b2 d#3 f#3 b3>:16-> r:16 r:8 r:8 r:16 b3:16-.\mf b3:16-. b3:16-. b3:16( g#3:16)
+m time=3/8 tempo="(e=e)"
+E:  f4:16( d4:16) en4:4~
+R:  <c#5 g#5>:8. <ab4 db5 f5 ab5>:16->\ff( <g4 bb4 eb5 g5>:16) <g#4 b4 d#5 f#5>:16->   #? 2nd-4th chord spellings
+L:  a#3:8.( <bb2 d3 f3 bb3>:16->\ff) <b2 d#3 f#3 b3>:16( <c3 e3 g3 c4>:16->)   #? chord spellings
+m time=3/4 tempo="(e=e)"
+E:  e4:16 f4:16-.\breath\mp f4:16-. f4:16-. f4:16( d4:16 e4:8~) e4:16 e4:16-. e4:16-. e4:16-.
+R:  <fn4 ab4 db5 fn5>:16-> r:16 r:16 ab5:16-.\mp ab5:16 ab5:16-. ab5:16-. ab5:16( g5:8. g5:16-.)
+R2: s:4 r:16 db5:16-. db5:16-. <db5 f5>:16-. db5:16( bb4:16) c5:8~
+L:  <f2 db3 fn3 ab3 db4>:16-> r:16 r:8 r:8 r:16 bb3:16-.\mp bb3:16-. bb3:16-. bb3:16( gn3:16)
+# system 2.  Bars 5-7: piano chords are chains of root-position major triads moving by semitone (used to spell the chords).
 m sys
-E:  e4:16 c#4:16 d#4:8~ d#4:2~   #? DRAFT
-R:  g5:16-. g5:16-. g5:16 e5:16 f#5:4 s:4   #? DRAFT
-L:  a3:8. a3:16-. a3:16-. a3:16-. a3:16-. f3:16 b3:4   #? DRAFT
+E:  e4:16( c#4:16 d#4:8~) d#4:2~
+R:  <c5 g5>:16 <c5 g5>:16-. <c5 g5>:16-. <c5 e5>:16( f#5:4~) <b4 f#5>:16 <g#4 b4 d5 f5>:16->( <ab4 c5 e5 ab5>:16) <bb4 dn5 fn5 bb5>:16->
+R2: s:4 c5:16( a4:16) bn4:8~ s:4
+L:  a3:8. a3:16-. a3:16-. a3:16-. a3:16( f#3:16~) f#3:16 <d#3 g#3 b3>:16->\f( <c3 e3 g#3 c4>:16) <bn2 dn3 fn3 bn3>:16->   #? beat-3 chords
 m
-E:  d#4:16 e4:16-.\f e4:16-. e4:16-. e4:16 c#4:16 eb4:8-> cn4:16 db4:8-> bb3:16   #? DRAFT
-R:  f5:2 <d4 b4 d#5 f5 b5>:4->   #? DRAFT
-L:  s:2 <b2 e3 g#3 b3>:16-> e3:8.   #? DRAFT
+E:  d#4:16 e4:16-.\breath\f e4:16-. e4:16-. e4:16( c#4:16) eb4:8->( cn4:16 db4:8->) bb3:16
+R:  <bn4 d#5 f#5 bn5>:16-> r:16 r:8 r:16 <e5 g5 cn6>:16->( <bn4 d#5 f#5 bn5>:16) <bb4 dn5 fn5 bb5>:16-> <c#5 e5 a5>:8-.-> <g4 bb4 eb5>:16->( <g#4 bn4 en5>:16)   #? chord spellings
+L:  <e2 b2 e3 g#3 b3>:16-> r:16 r:8 r:16 <a2 c#3 e3 a3>:16->( <b2 d#3 f#3 b3>:16) <c3 e3 g3 c4>:16-> <c#3 e#3 g#3 c#4>:8-.-> <eb3 g3 bb3 eb4>:16->( <d3 f#3 a3 d4>:16)   #? chord spellings approximate
 m
-E:  c4:8-> a3:16 bb3:16~-> bb3:16 g3:16\p a3:16 bb3:16 c4:16 a3:16 bb3:16 c4:16   #? DRAFT
-R:  <a4 cn5 f5>:16-> <b4 db5 g5>:16-> r:16 <e5 g#5 bn5 e6>:16-> <db5 f5 ab5 d6>:16 <bn4 d#5 f5 bb5>:16-> <bb4 dn5 fn5 bb5>:16-> s:4 s:16   #? DRAFT
-L:  <db3 fn3 ab3 db4>:16-> <c3 e3 g3 c4>:16-> r:16. <dn2 f2 a2 db3>:16-> s:4 s:8 s:16 s:32   #? DRAFT
+E:  c4:8->( a3:16 bb3:16~->) bb3:16(\> g3:16 a3:16 bb3:16)\p c4:16(_"cresc." a3:16) bb3:16 c4:16
+R:  <an4 cn5 f5>:16-> <bb4 db5 gb5>:16-> r:16 <e5 g#5 bn5 e6>:16-> <eb5 g5 bb5 eb6>:8-.-> r:16 <d5 f#5 a5 d6>:16->( <db5 f5 ab5 db6>:16) <bn4 d#5 f#5 bn5>:16-> <bb4 dn5 fn5 bb5>:16-> r:16   #? chord spellings
+L:  <db3 fn3 ab3 db4>:16-> <c3 e3 g3 c4>:16-> r:16 <dn2 f#2 an2 d3>:16-> <eb2 g2 bb2 eb3>:8-.->\mf_"cresc." r:16 <e2 g#2 b2 e3>:16->( <f2 a2 c3 f3>:16) <g2 bn2 d3 g3>:16-> <ab2 c3 eb3 ab3>:16-> r:16   #? chord spellings
+# system 3
 m sys
-E:  db4:16 bb3:16 c4:16 db4:16 eb4:16 c4:16 db4:16 eb4:16 en4:16 d#4:16 e4:16 f#4:16   #? DRAFT
-R:  r:16 r:4 s:4 s:8 s:16   #? DRAFT
-L:  r:16 <g2 b2 d3 g3>:16-> <ab2 c3 eb3 ab3>:16 <an2 c3 eb3 ab3>:16-> s:4 s:16 <c3 eb3>:8.   #? DRAFT
-m
-E:  g4:4~\f g4:8 bb3:8-^-. f#4:8 f#4:8   #? DRAFT
-R:  s:2 c5:4\ff   #? DRAFT
-L:  b2:2 <an3 c#4 d4>:4   #? DRAFT
+E:  db4:16 bb3:16( c4:16) db4:16 eb4:16( c4:16) db4:16 eb4:16 en4:16 d#4:16( e4:16) f#4:16
+R:  r:16 <b4 d#5 f#5 b5>:16->( <bb4 dn5 fn5 bb5>:16) <a4 c#5 e5 a5>:16-> <ab4 cn5 eb5 ab5>:16-> r:16 <gb4 bb4 db5 gb5>:16->( <f4 an4 c5 f5>:16) <e4 g#4 bn4 en5>:16-> <eb4 gn4 bb4 eb5>:16->( <bb4 d5>:16 b4:16)
+L:  r:16 <g2 b2 d3 g3>:16->( <ab2 c3 eb3 ab3>:16) <an2 c#3 e3 an3>:16-> <bb2 d3 f3 bb3>:16-> r:16 <c3 e3 g3 c4>:16->( <db3 f3 ab3 db4>:16) <d3 f#3 an3 d4>:16-> <eb3 g3 bb3 eb4>:16->( <g3 bb3>:16 <ab3 c4>:16)   #? last two LH dyads
+# Bar 8: RH has the fugue subject in diminution (G A G | Bb A Ab G).  Euph: flutter-valve glissandi, "omit this passage if necessary".
+m time=4/4
+E:  g4:4~(\f g4:8\gl"wavy"_"(flutter valves)" bb3:8-^-.)\glstop f#4:8~(_"(simile)" f#4:8\gl"wavy" bb3:8-^-.)\glstop en4:8~(^"omit this passage if necessary to rest the lip before next entrance"
+R:  r:16 g4:16-. a4:16-. g4:16-. bb4:32->( a4:32 ab4:32 g4:32) r:16 g4:16-. an4:16-. g4:16-. db5:32->( bn4:32 an4:32 g4:32) r:16 g4:16-. a4:16-. g4:16-.   #? 32nds of beat 3
+L:  <an3 c#4 d4>:4.(\f <c#3 g#3 cn4>:8-^-.) <f#3 a#3 c#4>:4( <c3 g3 bb3>:8-^-.) <g3 b3 d4>:8~   #? chord spellings of beats 2-4
+# system 4.  Bars 9-11 piano: rhythm from the scan, pitches from the notehead overlay; dense spots flagged.
 m sys
-E:  e4:8 bb3:8-.-^ e4:16-> bb3:16 fb4:16-> c4:16 g4:8-^-. ab4:8~   #? DRAFT
-R:  c5:2 b4:16\mf b#4:16 r:16 a4:16->   #? DRAFT
-L:  g2:4 s:2   #? DRAFT
+E:  e4:8\gl"wavy" bb3:8-^-.)\glstop e4:16->(\< bn3:16 fn4:16-> c4:16) g4:8-^-. ab4:8~( ab4:8 ab3:8\gl"wavy")
+R:  f#5:32->( c#5:32 bb4:32 g4:32) f#4:16-^-. g4:16 a4:16-> g4:16-> ab5:16->( 3:2{eb5:32 cn5:32 an4:32}) bn4:16-> a4:16-> b5:16->( 3:2{f5:32 e5:32 c5:32}) c5:16-> b4:16-> c6:16->( 3:2{a5:32 e5:32 c5:32})   #? approximate (dense; 32nd groups read as triplets)
+L:  <g3 b3 d4>:8( <eb3 bb3 db4>:8-^-.) <a3 c4 e4>:8( <fn3 fn4>:8-^-.) \clef"treble" <db4 eb4 g4>:8( <ab3 ab4>:8-^-.) <d4 e4 fn4>:8( <c#4 a#4>:8-^-.)   #? chord spellings
+m reh="G"
+E:  g2:4.->\ff\glstop\breath an2:8-- b2:8--( e3:8--) 3:2{c#3:8( d3:8 g3:8)}
+R:  r:16 b4:16 c#5:16 b4:16 d5:32->( c#5:32 cn5:32 b4:32) r:16 b4:16 c#5:16 b4:16 f5:32->( d5:32 c5:32 b4:32) r:16 b4:16 c5:16 b4:16   #? upper voice = fugue subject in diminution (as bar 8); 32nds checked against the overlay
+R2: s:4 r:16 <e4 a4>:16->( <d4 g#4>:16) <d4 a4>:16 <c4 a4>:8 r:16 g4:16~ g4:16 <f4 a4>:16( <g4 b4>:16 <f4 a4>:16)   #? lower voice approximate
+L:  \clef"bass" r:8\f <b1 b2>:8 <c#2 c#3>:8 <b1 b2>:8 <d2 d3>:4 r:8 <b1 b2>:8
+L2: g2:4 s:2.
 m
-E:  g2:4.->\ff an2:8-- b2:8-- e3:8--   #? DRAFT
-R:  <g4 g5>:16-> b4:16 b4:16 <e4 e5>:16-> f5:16-> b4:16 <bb4 bb5>:16-> bn4:16 b4:16 ab5:16-> f5:16 <g4 g5>:16   #? DRAFT
-L:  <c#2 c#3>:8 <b1 b2>:8 <f2 f3>:4 r:8 <bn1 bn2>:8   #? DRAFT
-m
-E:  f3:8 db3:8 <eb3 f3>:16 a3:16 g3:16 s:4 s:16   #? DRAFT
+E:  6:4{d3:16( bb2:16 cb3:16 d3:16 e3:16 f3:16)} bn3:2.~->
+R:  <g4 g5>:16->( b4:16) b4:16 <e4 e5>:16-> <a4 f5>:16->( bb4:16) <bb4 bb5>:16->( bn4:16) b4:16 ab5:16->( f5:16) <g4 g5>:16-> a4:16 <bb4 b5>:16->( bb4:16) bn4:16   #? beats 3-4 approximate
+L:  <c#2 c#3>:8 <b1 b2>:8 <f2 f3>:4 r:8 <bn1 bn2>:8 <c2 c3>:8 <bn1 bn2>:8
