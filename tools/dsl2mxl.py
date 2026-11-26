@@ -320,6 +320,8 @@ class Score:
         self.parts = []  # (id, name, staves, clefs, sound, abbr)
         self.voicemap = {}  # key -> (partid, staff, voiceno)
         self.measures = []
+        self.mark_uncertain = False
+        self.n_uncertain = 0
 
     def parse(self, files):
         cur = None
@@ -334,6 +336,18 @@ class Score:
                     self.parse_line(line, where)
                 except Err as e:
                     raise Err(f'{where}: {e}')
+                if '#?' in raw and re.match(r'\s*\w+:', line):
+                    self.n_uncertain += 1     # numbering matches docs/open_items.csv
+                    if self.mark_uncertain:
+                        key = re.match(r'\s*(\w+):', line).group(1)
+                        evs = self.measures[-1].voices[key][0]
+                        first = True
+                        for ev in evs:
+                            if isinstance(ev, Event) and ev.kind != 'space':
+                                ev.uncertain = True
+                                if first:
+                                    ev.atts.append(('text', ('^', f'!#{self.n_uncertain}?')))
+                                    first = False
         return self
 
     def parse_line(self, line, where):
@@ -791,7 +805,8 @@ class Writer:
             cmds = {a[1][0]: a[1][1] for a in ev.atts if a[0] == 'cmd'}
             pitches = ev.pitches if ev.kind in ('note', 'chord') else [None]
             for pi, pt in enumerate(pitches):
-                n = ['<note' + (' print-object="no"' if pt is not None and pt.flags.get('hide') else '') + '>']
+                n = ['<note' + (' print-object="no"' if pt is not None and pt.flags.get('hide') else '')
+                     + (' color="#E00000"' if getattr(ev, 'uncertain', False) else '') + '>']
                 if ev.grace:
                     n.append('<grace slash="yes"/>' if ev.grace == 'slash' else '<grace/>')
                 if pi > 0:
@@ -1110,10 +1125,14 @@ def main():
     ap.add_argument('-o', '--out', required=True)
     ap.add_argument('--mxl', help='also write compressed .mxl')
     ap.add_argument('--strict', action='store_true', help='treat warnings as errors')
+    ap.add_argument('--mark-uncertain', action='store_true',
+                    help='colour notes of #? lines red and label them "#n?" (numbers as in docs/open_items.csv)')
     a = ap.parse_args()
     warnings = []
     try:
-        sc = Score().parse(a.files)
+        sc = Score()
+        sc.mark_uncertain = a.mark_uncertain
+        sc = sc.parse(a.files)
         assign_tuplet_groups(sc)
         off = 0 if sc.measures and 'pickup' in sc.measures[0].props else 1
         for i, m in enumerate(sc.measures):
