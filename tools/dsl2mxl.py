@@ -28,7 +28,9 @@ ACC_NAME = {'#': 'sharp', '##': 'double-sharp', 'b': 'flat', 'bb': 'flat-flat', 
 TYPES = {1: 'whole', 2: 'half', 4: 'quarter', 8: 'eighth', 16: '16th', 32: '32nd', 64: '64th', 128: '128th',
          0: 'breve'}
 BEAMS = {8: 1, 16: 2, 32: 3, 64: 4, 128: 5}
-DYNAMICS = 'pppp ppp pp p mp mf f ff fff ffff fp sf sfz sfp sfpp fz rf rfz n pf sffz'.split()
+DYNAMICS = 'pppp ppp pp p mp mf f ff fff ffff fp sf sfz sfp sfpp fz rf rfz n pf sffz sff ffp'.split()
+# dynamics without a MusicXML element of their own are written as <other-dynamics>
+OTHER_DYNAMICS = {'sff', 'ffp'}
 
 
 class Err(Exception):
@@ -99,6 +101,15 @@ TOK = re.compile(r'''
 ''', re.X | re.M)
 
 STANDALONE = {'clef', 'mm', 'bb', 'nobeam', 'beam', 'tempotext'}
+KNOWN_CMDS = {'<', '>', '!', 'ped', 'pedx', 'unped', '8va', '8vb', '15ma', '15mb', '8vx', 'arp', 'gl', 'glstop',
+              'breath', 'caesura', 'harm', 'tr', 'trl', 'trx', 'tracc', 'turn', 'mordent', 'fermata', 'fermataS',
+              'fermataL'}
+UNKNOWN_CMDS = []
+
+
+def known_cmd(name):
+    return (name in KNOWN_CMDS or name in DYNAMICS or name in STANDALONE
+            or __import__('re').fullmatch(r'trem[SE]?\d', name) is not None)
 
 
 def parse_pitch(s, line):
@@ -212,6 +223,8 @@ def tokenize_voice(text, line):
             if name in STANDALONE:
                 items.append(('cmd', name, arg))
                 continue
+            if not known_cmd(name):
+                UNKNOWN_CMDS.append(f'line {line}: unknown command \\{name} (ignored)')
             att = ('cmd', (name, arg))
         if last_ev is None or (items and isinstance(items[-1], tuple) and items[-1][0] in ('tup', 'grace')
                                and last_ev is not None and False):
@@ -666,7 +679,12 @@ class Writer:
                     o.append(f'<forward><duration>{self.dur(t - pos)}</duration></forward>')
                     pos = t
                 if name == 'clef':
-                    o.append('<attributes>' + clef_xml(arg, staff if multi else None) + '</attributes>')
+                    # \clef"treble@3" puts the clef on another staff of the same part (for cross-staff passages,
+                    # so the clef precedes the cross-staff notes in document order)
+                    cstaff = staff
+                    if '@' in arg:
+                        arg, cstaff = arg.split('@')[0], int(arg.split('@')[1])
+                    o.append('<attributes>' + clef_xml(arg, cstaff if multi else None) + '</attributes>')
                 elif name == 'mm':
                     o.append(tempo_xml(None, arg, staff if multi else None))
                 elif name == 'tempotext':
@@ -697,7 +715,8 @@ class Writer:
                         if wedge_open.get(evstaff if direction_only else staff):
                             dirs.append(wedge_xml('stop', stf))
                             wedge_open[staff] = False
-                        dirs.append(f'<direction placement="below"><direction-type><dynamics><{name}/></dynamics>'
+                        dyn = f'<other-dynamics>{name}</other-dynamics>' if name in OTHER_DYNAMICS else f'<{name}/>'
+                        dirs.append(f'<direction placement="below"><direction-type><dynamics>{dyn}</dynamics>'
                                     f'</direction-type>{stf}<sound dynamics="{DYN_VEL.get(name, 80)}"/></direction>')
                     elif name in ('<', '>'):
                         if wedge_open.get(staff):
@@ -920,7 +939,7 @@ class Writer:
 
 
 DYN_VEL = dict(pppp=20, ppp=30, pp=40, p=55, mp=70, mf=85, f=100, ff=115, fff=125, ffff=127, fp=100, sf=110,
-               sfz=115, sfp=110, fz=110, rf=105, rfz=110, n=10)
+               sfz=115, sfp=110, fz=110, rf=105, rfz=110, n=10, sff=120, ffp=115)
 
 
 def fmt_alter(a):
@@ -1072,6 +1091,7 @@ def main():
     except Err as e:
         print('ERROR:', e, file=sys.stderr)
         sys.exit(1)
+    warnings.extend(UNKNOWN_CMDS)
     for w in warnings:
         print('warning:', w, file=sys.stderr)
     open(a.out, 'w', encoding='utf-8').write(xml)

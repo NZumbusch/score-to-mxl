@@ -1,50 +1,65 @@
-# ---------------- page 28 (fugue) -- PLACEHOLDER: no Audiveris draft exists (it crashed on this page). 12 bars of 4/4, rehearsal H at system 3.
-# TODO: transcribe euphonium + piano from the scan (see docs/HANDOFF.md). Bars are whole-bar rests so that bar numbers/click track stay right.
+# ---------------- page 28 (fugue, cont.; transcribed from the scan. Audiveris crashed on this page.) ----------------
+# Piano RH accompaniment uses a chromatic "wedge" of two-note chords (f4/d5, f#4/c#5, g4/c5, g#4/b4); used to confirm accidentals.
+# system 1
 m page
-E:  R
-R:  R
-L:  R
+E:  b3:8( b3:8 g{d4:16} c4:8 b3:8 g{d4:16} c4:8 b3:8) ab3:4~(
+R:  \clef"treble" <bn4 bn5>:2. r:16 <g#4 bn4>:16-> <gn4 cn5>:16 <f#4 c#5>:16
+R2: r:16 d5:16-> f5:16-> e5:16-> eb5:16-> d5:16-> g5:16-> gb5:16-> f5:16-> d5:16-> en5:16-> c#5:16-> s:4
+L:  <g2 g3>:8( <b1 b2>:8) <b1 b2>:8( <e2 e3>:8) <f2 f3>:8( <b1 b2>:8) <bb2 bb3>:8( <bn1 bn2>:8)
 m
-E:  R
-R:  R
-L:  R
+E:  ab3:16) ab3:16-. ab3:16-. ab3:16-. ab3:16-. ab3:16-. ab3:16-. ab3:16-. ab3:16( f3:16) gb3:8~( gb3:16 eb3:16) en3:8~
+R:  <fn4 d5>:8 r:8 r:16 <fn4 d5>:16-> <f#4 c#5>:16 <gn4 cn5>:16 <g#4 b4>:8 r:16 <g#4 b4>:16-> <gn4 cn5>:16-> <f#4 c#5>:16 <fn4 d5>:16-> <f#4 c#5>:16
+L:  <b1 b2>:8( <ab2 ab3>:8) <f2 f3>:8( <g2 g3>:8) <ab2 ab3>:8( <bn1 bn2>:8) <bb2 bb3>:8( <bn1 bn2>:8)
 m
-E:  R
-R:  R
-L:  R
+E:  e3:4. e3:8(\mf g{f3:16 f#3:16} 3:2{g3:8 f#3:8 fn3:8} e3:8 f#3:8)
+R:  <g4 c5>:4 g4:32->( f#4:32 fn4:32 e4:32) r:16 e4:16 f#4:16 e4:16 bb4:32->( g4:32 f4:32 e4:32) r:16 e4:16 f4:16 e4:16
+R2: r:16\mf e4:16 f#4:16 e4:16 r:16 d4:16( c4:16 b3:16) bb3:8 r:16 a3:16 b3:16( c4:16 b3:16 a3:16)
+L:  <c2 c3>:4 <a1 a2>:8 <g1 g2>:8 <bb1 bb2>:4 r:8 <g1 g2>:8
+L2: r:8 g2:8 s:2.
+# system 2
 m sys
-E:  R
-R:  R
-L:  R
+E:  eb3:4. eb3:8( g{en3:16 f3:16} 3:2{gb3:8\< en3:8 f3:8)} c4:8( bb3:8)
+R:  <c4 c5>:16->_"cresc." eb4:16 eb4:16 <a3 a4>:16-> <bb3 bb4>:16-> eb4:16 eb5:16 eb4:16-> eb4:16 <db4 db5>:16-> b4:16 <c4 c5>:16-> <db4 db5>:16-> eb4:16 eb5:16 eb4:16->
+L:  <a1 a2>:8 <g1 g2>:8 <db2 db3>:4 r:8 <g1 g2>:8 <a1 a2>:8 <g1 g2>:8
 m
-E:  R
-R:  R
-L:  R
+E:  db4:2~\f db4:8 db4:8( g{dn4:16 eb4:16} 3:2{eb4:16-. db4:16-. dn4:16-.)} db4:8--
+R:  <f4 f5>:2. s:4
+R2: r:16\f bb4:16-> db5:16-> c5:16-> bn4:16-> bb4:16-> eb5:16-> dn5:16-> db5:16-> bb4:16-> c5:16-> a4:16-> r:16 <bb4 db5>:16->( <a4 dn5>:16) <ab4 eb5>:16
+L:  <eb2 eb3>:8( <g1 g2>:8) <g1 g2>:8( <c2 c3>:8) <db2 db3>:8( <g1 g2>:8) <gb2 gb3>:8( <gn1 gn2>:8)
 m
-E:  R
-R:  R
-L:  R
+E:  bb3:8( g{bn3:16 c4:16} 3:2{db4:16-. c4:16-. bn3:16-.)} bb3:8-- 3:2{g3:16( ab3:16 an3:16} 3:2{bb3:8--) an3:8-- ab3:8--} 6:4{g3:16( bb3:16 ab3:16 g3:16 en3:16 f#3:16)}
+R:  <g4 en5>:8 r:8 r:16 <a4 f#5>:16->( <bb4 fn5>:16) <bn4 e5>:16 <c5 eb5>:8 r:16 <c#5 dn5>:16->( <cn5 f5>:16) <bn4 f#5>:16->( <bb4 g5>:16) <bn4 f5>:16
+L:  <g1 g2>:8 <en2 en3>:8-> <c#2 c#3>:8 <d#2 d#3>:8 <en2 en3>:8-> <g1 g2>:8 <eb2 eb3>:8-> <g1 g2>:8
+# system 3 (rehearsal H).  RH bar H = bar 3 of this page a step higher (same 32nd figure).
 m sys reh="H"
-E:  R
-R:  R
-L:  R
+E:  eb3:2~(_"dim." eb3:4\gl_"(bend)" d3:8)\glstop r:8
+R:  <c5 f5>:4 ab4:32->( g4:32 gb4:32 f4:32) r:16 f4:16 g4:16 f4:16 bn4:32->( ab4:32 g4:32 f4:32) r:16 f4:16 g4:16 f4:16
+R2: r:16\mf f4:16 g4:16 f4:16 r:16 eb4:16->( d4:16 c4:16) bn3:8 r:16 an3:16-> b3:16( c4:16 b3:16 a3:16)
+L:  <a1 a2>:4.-.\mf_"marked" <b1 b2>:8 <c2 c3>:8 <f2 f3>:8 3:2{<d2 d3>:8( <eb2 eb3>:8 a2:8)}
 m
-E:  R
-R:  R
-L:  R
+E:  r:8 d3:4(\mf c#3:8 f#3:4. en3:8)
+R:  <ab4 db5>:16->( f4:16) f4:16 <g4 bb4>:16-> <g#4 bn4>:16->( f4:16) <bn4 e5>:16->( f4:16) <ab4 dn5>:16->( f#4:16) f#4:16 <g#4 bn4>:16-> <a4 c5>:16->( f#4:16) <bn4 dn5>:16->( f#4:16)
+L:  r:8 f3:8( f#3:8 g#3:8) r:8 f#3:8( g#3:8 a3:8)
+L2: <ab2 ab3>:2 <an2 an3>:2
 m
-E:  R
-R:  R
-L:  R
+E:  r:8 d3:8( 3:2{c#3:8 f#3:8 e3:8} a3:8 g3:8) eb3:4~(
+R:  <a#4 c#5>:16-> f#4:16 f#4:16 <an4 cn5>:16-> <a#4 c#5>:16->( f#4:16) <c#5 f#5>:16->( f#4:16) <eb5 g5>:16->( g4:16 g4:16) <d5 fn5>:16-> <cn5 e5>:16->( g4:16) <ab4 c5>:16->( eb4:16)
+L:  r:8 f#3:8( g#3:8 a#3:8) r:8 an3:8( bn3:8 c4:8)
+L2: <a#2 a#3>:2 <cn3 cn4>:2
+# system 4
 m sys
-E:  R
-R:  R
-L:  R
+E:  eb3:8 fn3:8) 3:2{d3:8( c#3:8 f#3:8} en3:16 a3:16 g3:16 eb3:16) fn3:32->( g3:32 bn3:8.\<
+R:  <e5 ab5>:16->(_"cresc." c5:16) <db5 f5>:16->( ab4:16) <e5 an5>:16->( c#5:16) <dn5 f#5>:16->( an4:16) <f5 b5>:16->( d5:16) <g5 c6>:16->( eb5:16) <a5 db6>:16->( fn5:16) <a5 dn6>:16->( en5:16)
+L:  db4:8( bb3:8) dn4:8( bn3:8) e4:16( c4:16 fn4:16 db4:16) g4:16( eb4:16 f#4:16 dn4:16)
+L2: db3:4 dn3:4 e3:8 fn3:8 g3:8 f#3:8
 m
-E:  R
-R:  R
-L:  R
+E:  6:4{b3:16\f g#3:16 a#3:16 b3:16 d4:16 cn4:16} f#4:2.~->
+R:  <d#5 g#5 b5>:8-^-.\sff r:8 f#4:8(\mf g#4:8) <f#4 a4>:8 <gn4 dn5>:8\< 3:2{<f#4 b4>:8( <fn4 c5>:8 <f#4 fn5>:8)}
+R2: s:4 s:4 f#4:4 s:4
+L:  <g#3 g#4>:8-^-.\sff r:8 r:8 e4:8( d4:8 <c4 e4>:8) 3:2{<b3 d#4>:8( <bb3 dn4>:8 <a3 c#4>:8)}
 m
-E:  R
-R:  R
-L:  R
+E:  f#4:8-.) r:8 r:4 r:8 gb4:8--\f gb4:8-- gb4:8--
+R:  6:4{eb5:16->( c5:16 d5:16 eb5:16 g5:16 f5:16} <f5 ab5 db6>:2->)\sff r:16 an5:16-.\f an5:16-. an5:16-.
+R2: g4:8-^-.\sff r:8 s:2 r:8. f5:16-.
+L:  <e3 cn4>:8-^-.\sff r:8 \clef"treble" b4:2.~
+L2: s:4 <d#4 f#4>:2.~
