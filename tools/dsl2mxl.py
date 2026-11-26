@@ -482,7 +482,7 @@ class Writer:
                     if not isinstance(ev, Event) or ev.grace:
                         continue
                     if ev.kind in ('rest', 'mrest', 'space'):
-                        for pt in pending.values():
+                        for pt, _ in pending.values():
                             pt.flags.pop('tie', None); removed += 1
                         pending = {}
                         continue
@@ -490,6 +490,8 @@ class Writer:
                     for pt in ev.pitches:
                         key = (pt.step, pt.octave)
                         origin = pending.pop(key, None)
+                        if origin is not None:
+                            origin = origin[0]
                         if origin is not None:
                             if pt.acc == '' and origin.alter != 0:
                                 pt.acc = origin.acc
@@ -500,26 +502,36 @@ class Writer:
                                 origin.flags.pop('tie', None); removed += 1; self.warn(f'{ev.line}: tie on {origin.step}{origin.acc}{origin.octave} dropped (next {pt.step}{pt.acc}{pt.octave})')
                                 origin = None
                         if pt.flags.get('tie'):
-                            new_pending[key] = pt
-                    for pt in pending.values():       # tied notes that were not continued
-                        pt.flags.pop('tie', None); removed += 1; self.warn(f'{ev.line}: tie on {pt.step}{pt.acc}{pt.octave} dropped (not continued by next chord)')
+                            new_pending[key] = (pt, meas.idx)
+                    # a tied note that is not continued by the next chord may still be held into a later chord of
+                    # the same bar (arpeggio notes tied into a chord, e.g. e4~ g#4~ a#4~ <e4 g#4 a#4>); otherwise drop it
+                    for key, (pt, mi) in pending.items():
+                        if mi == meas.idx and key not in new_pending:
+                            new_pending[key] = (pt, mi)
+                        else:
+                            pt.flags.pop('tie', None); removed += 1; self.warn(f'{ev.line}: tie on {pt.step}{pt.acc}{pt.octave} dropped (not continued by next chord)')
                     pending = new_pending
-            for pt in pending.values():
+            for pt, _ in pending.values():
                 pt.flags.pop('tie', None); removed += 1
         if removed:
             self.warn(f'{removed} tie flag(s) without matching continuation were dropped (check ties near wrong chords/pitches)')
 
     def fix_slurs(self):
-        """Drop slur starts that are never closed and stops that were never opened (per voice, slur number)."""
+        """Balance slurs per voice and slur number.  A slur end without a start is dropped.  A slur start that is
+        not closed before the next start (typically a phrase slur running across a barline into a tie) is closed on
+        the note just before the next start; a start never closed at all is closed on the voice's last note."""
         s = self.s
-        dropped = 0
+        dropped = closed = 0
         for k in s.voicemap:
-            open_ = {}   # number -> att tuple (ev, att)
+            open_ = {}   # number -> (ev, att)
+            prev = None  # previous note event in this voice
+            pprev = None
+            last = None
             for meas in s.measures:
                 if k not in meas.voices:
                     continue
                 for ev in meas.voices[k][0]:
-                    if not isinstance(ev, Event):
+                    if not isinstance(ev, Event) or ev.kind in ('space',):
                         continue
                     for att in list(ev.atts):
                         if att[0] != 'slur':
@@ -530,13 +542,32 @@ class Writer:
                                 del open_[num]
                             else:
                                 ev.atts.remove(att); dropped += 1
+                                self.warn(f'{ev.line}: slur end without start dropped (voice {k})')
                         else:
-                            if num in open_:           # previous start never closed
-                                oev, oatt = open_[num]
-                                oev.atts.remove(oatt); dropped += 1
+                            if num in open_:
+                                oev, oatt = open_.pop(num)
+                                tgt = prev
+                                # end the phrase where a tie into the bar starts (engraving convention)
+                                if (pprev is not None and pprev is not oev and pprev.pitches
+                                        and all(pt.flags.get('tie') for pt in pprev.pitches)):
+                                    tgt = pprev
+                                if tgt is not None and tgt is not oev and tgt.kind in ('note', 'chord'):
+                                    tgt.atts.append(('slur', ')' if num == 1 else ']')); closed += 1
+                                else:
+                                    oev.atts.remove(oatt); dropped += 1
+                                    self.warn(f'{oev.line}: slur start never closed dropped (voice {k})')
                             open_[num] = (ev, att)
-            for oev, oatt in open_.values():
-                oev.atts.remove(oatt); dropped += 1
+                    if ev.kind in ('note', 'chord') and not ev.grace:
+                        pprev, prev = prev, ev
+                        last = ev
+            for num, (oev, oatt) in open_.items():
+                if last is not None and last is not oev:
+                    last.atts.append(('slur', ')' if num == 1 else ']')); closed += 1
+                else:
+                    oev.atts.remove(oatt); dropped += 1
+                    self.warn(f'{oev.line}: slur start never closed dropped (voice {k})')
+        if closed:
+            self.warn(f'{closed} slur(s) left open in the source were closed before the next slur in the same voice')
         if dropped:
             self.warn(f'{dropped} unmatched slur marks were dropped')
 

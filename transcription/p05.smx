@@ -38,17 +38,17 @@ R:  r:4 g{eb3:8} e3:2.->\f~(
 L:  r:4 g{<c2 g2>:8} <c2 g2>:2.->~
 m
 E:  5:4{ a3:16--\< a3-- a3-- a3-- a3-- } a3:32(\f c4:32-> b3:16-.) r:8 r:4\fermata r:4
-R:  e3:2.\fermata) r:8 eb3:8(\p
-L:  <c2 g2>:2.\fermata r:8 <c2 g2>:8(
+R:  e3:2.\fermata) r:8 eb3:8[\p
+L:  <c2 g2>:2.\fermata r:8 <c2 g2>:8[
 m mm=q=72
 E:  r:8 a3:8(\p g{c4:8} b3:8->) a3:8 r:8 a3:8( g{d4:8} c4:8->) b3:8
 Ed: s:2 \tempotext"accel." s:2
-R:  g{bb3:8} f3:8->( eb3:8) r:8 e3:8 g{b3:8} f#3:8->( e3:8) r:8 e3:8(
-L:  <d2 a2>:8->( <c2 g2>:8) r:8 <c2 g2>:8( <eb2 bb2>:8->) <c2 g2>:8 r:8 <c2 g2>:8(
+R:  g{bb3:8} f3:8->]( eb3:8) r:8 e3:8 g{b3:8} f#3:8->( e3:8) r:8 e3:8[
+L:  <d2 a2>:8->]( <c2 g2>:8) r:8 <c2 g2>:8( <eb2 bb2>:8->) <c2 g2>:8 r:8 <c2 g2>:8[
 m
 E:  r:8 b3:8\< g{db4:8} eb4:8->( c4:8) g{ab4:8} g4:8->( en4:8) g{bb4:8} b4:4->\f~
-R:  a3:8\<( f#3:8 g{bb3:8} c4:8-> a3:8 \clef"treble" g{f4:8} eb4:8-> c4:8 <bn3 g4>:8->-.)\sf\fermata r:8
-L:  <f2 c3>:8->( <eb2 bb2>:8 <ab2 eb3>:8-> <f2 c3>:8 <gb2 db3>:8-> <a2 en3>:8 <db3 f3>:8->-.)\fermata r:8
+R:  a3:8\<]( f#3:8 g{bb3:8} c4:8-> a3:8 \clef"treble" g{f4:8} eb4:8-> c4:8 <bn3 g4>:8->-.)\sf\fermata r:8
+L:  <f2 c3>:8->]( <eb2 bb2>:8 <ab2 eb3>:8-> <f2 c3>:8 <gb2 db3>:8-> <a2 en3>:8 <db3 f3>:8->-.)\fermata r:8
 # system 4
 m sys mm=q=132
 E:  b4:8 r:16 ab4:16_"dim." ab4:8 r:16 g4:16 g4:8 r:16 d4:16 d4:8 r:16 f4:16
