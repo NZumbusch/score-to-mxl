@@ -16,7 +16,7 @@
    This labels detected noteheads with pitch names and draws a page-x ruler; give clef changes as `clef@x`.
    `tools/view.py` does plain crops. Zoom into dense spots with a small PIL crop.
 4. Write `transcription/pNN.smx`, then run
-   `python3 tools/dsl2mxl.py transcription/00_header.smx transcription/p*.smx -o work/test.musicxml`.
+   `python3 tools/dsl2mxl.py transcription/00_header.smx transcription/p*.smx --breaks -o work/test.musicxml` (`--breaks` keeps the scan's system breaks for render comparison; the output/ files have no layout so Dorico lays them out itself).
    Fix every "voice short/too long" and "slur stop without start" warning.
 5. `python3 tools/render.py work/test.musicxml work/render --width 2400` and compare `work/render/rNN.png` with the scan.
 6. `./build.sh`, then commit and push.

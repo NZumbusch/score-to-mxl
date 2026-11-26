@@ -411,6 +411,7 @@ TECH = {'-+': 'stopped', '-o': 'open-string'}
 
 
 class Writer:
+    breaks = False
     def __init__(self, score, warn):
         self.s = score
         self.warn = warn
@@ -636,8 +637,9 @@ class Writer:
             imp = ' implicit="yes"' if 'pickup' in meas.props else ''
             o.append(f'<measure number="{meas.number}"{imp}>')
             pr = meas.props
-            if mi > 0 and (pr.get('sys') or pr.get('page')):
-                o.append('<print new-system="yes"/>')   # page breaks are left to Dorico (forced ones made near-empty pages)
+            if self.breaks and mi > 0 and (pr.get('sys') or pr.get('page')):
+                # system breaks of the scan: only for proof-reading renders (--breaks); Dorico gets a layout-free file
+                o.append('<print new-system="yes"/>')
             # attributes
             attrs = []
             if mi == 0:
@@ -1125,6 +1127,7 @@ def main():
     ap.add_argument('-o', '--out', required=True)
     ap.add_argument('--mxl', help='also write compressed .mxl')
     ap.add_argument('--strict', action='store_true', help='treat warnings as errors')
+    ap.add_argument('--breaks', action='store_true', help='write the scan\'s system breaks (for tools/render.py)')
     ap.add_argument('--mark-uncertain', action='store_true',
                     help='colour notes of #? lines red and label them "#n?" (numbers as in docs/open_items.csv)')
     a = ap.parse_args()
@@ -1132,6 +1135,7 @@ def main():
     try:
         sc = Score()
         sc.mark_uncertain = a.mark_uncertain
+        Writer.breaks = a.breaks
         sc = sc.parse(a.files)
         assign_tuplet_groups(sc)
         off = 0 if sc.measures and 'pickup' in sc.measures[0].props else 1
