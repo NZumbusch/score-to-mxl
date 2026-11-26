@@ -9,6 +9,4 @@ into MusicXML (`.mxl`) that Dorico can import.
 * `docs/FINDINGS.md` – what worked / didn't. `docs/HANDOFF.md` – how to continue and what is still open.
 
 ## Status (see docs/STATUS.md for the page-by-page table)
-All 29 pages are in. Pages 1-20 were transcribed and checked against the scan. Pages 21-24 are good for the euphonium
-and structure; their piano passages have flagged `#?` spots. Pages 25-27 and 29 are first-pass drafts
-(`#? DRAFT`: correct bar count/metre/rhythm skeleton, pitches from OMR) and page 28 is a rest placeholder.
+All 29 pages are transcribed from the scan (pages 22–29 re-read in the latest pass). Remaining uncertain spots, mainly page 21 piano and some dense fugue chords, are marked `#?`.

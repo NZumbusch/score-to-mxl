@@ -2,20 +2,20 @@
 
 | Pages | State | Notes |
 |---|---|---|
-| 1–20 | transcribed + proof-read against the scan | a few spots marked `#?` (grep for it) |
-| 21 | euphonium good; piano arpeggios/Coro chords approximate | `#?` |
-| 22 | euphonium good; piano best-effort | no Audiveris draft existed |
-| 23 | structure + fugue subject exact; fugue bars 2–6 euph pitches and all piano approximate | `#?` |
-| 24 | euphonium read from scan and bar-sum checked; piano from draft | `#?` |
-| 25, 26, 27, 29 | **DRAFT** (Audiveris pitches, bars/metre/rhythm forced to bar length) | every line ends with `#? DRAFT` |
-| 28 | **PLACEHOLDER** (12 bars of 4/4 rest, rehearsal H) | transcribe from scan |
+| 1–20 | transcribed + proof-read against the scan | ~40 small `#?` items (grep for it) |
+| 21 | euphonium good; piano arpeggios/Coro chords approximate | 19 `#?` — the main remaining weak spot |
+| 22 | re-read from the scan: rhythms/bar lengths fixed (unprinted 5/4, 2/4, 2/4 bars in the recit.), piano chords read | 11 `#?` (semplice runs, LH treble dyads) |
+| 23 | re-read: octave lines now at sounding pitch, fugue subject with 32nd turns, piano | 4 `#?` |
+| 24–29 | transcribed bar by bar from the scan (28 was a placeholder, 25–27/29 were OMR drafts), cross-checked with fugue subject entries, canons and repeated figures | dense chord spellings flagged `#?` (2–15 per page) |
 
-## Open work, in priority order
-1. Page 28 from scratch, then the DRAFT pages 25–27, 29 (euphonium first: use the fugue subject
-   `r16 g2 a2 g2 | bb2-> a2 ab2 g2 | r16 g2 an2 g2 | bb2-> a2 ab2 g2` and its transposed entries to verify pitches).
-2. `grep -n "#?" transcription/*.smx` – resolve each flagged reading against the scan.
-3. Final proof-read of rendered pages (`tools/render.py`) against the scan: ties/slurs/clefs/8va/pedal/dynamics.
-4. `tools/qa.py` on the final file (its "beats vs" lines are partly artifacts of multi-voice padding; ties/slurs/tuplets
-   sections are meaningful). The converter now drops ties without a matching continuation (78 at last build, listed
-   as warnings by `./build.sh`) and unmatched slur marks (43) – review those warnings.
-5. Import into Dorico; confirm tempo track (metronome marks are in the file) and hide-empty-staves for the 3rd piano staff.
+All 366 bars build without bar-length warnings.
+
+## Checks done
+- Every page 22–29 rendered (`tools/render.py`) and compared with the scan.
+- Converter: `\sff`/`\ffp` were silently dropped (fixed), unknown commands now warn, ties held into a later chord are kept,
+  phrase slurs left open are closed before the next slur instead of being dropped (end on the note where a tie starts).
+- Remaining build warnings: 22 dropped ties (mostly page 21/22 approximations and ties before rests) – review with the scan.
+
+## Open work
+1. Page 21 piano (arpeggios in bar 268, Coro chord spellings) and the `#?` items: `grep -n "#?" transcription/*.smx`.
+2. Import into Dorico; confirm tempo track and hide-empty-staves for the 3rd piano staff.
