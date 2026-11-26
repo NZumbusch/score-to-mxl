@@ -637,7 +637,7 @@ class Writer:
             o.append(f'<measure number="{meas.number}"{imp}>')
             pr = meas.props
             if mi > 0 and (pr.get('sys') or pr.get('page')):
-                o.append('<print new-page="yes"/>' if pr.get('page') else '<print new-system="yes"/>')
+                o.append('<print new-system="yes"/>')   # page breaks are left to Dorico (forced ones made near-empty pages)
             # attributes
             attrs = []
             if mi == 0:
